@@ -1,0 +1,20 @@
+- year: 2026
+  title: "Your Nature paper title"
+  authors: "Author A, Author B, Sai Ma, et al."
+  journal: "Nature"
+  url: "https://doi.org/..."
+  featured: true
+
+- year: 2026
+  title: "Your UHRF1 paper title"
+  authors: "Author A, Author B, Sai Ma, et al."
+  journal: "Nature Communications"
+  url: "https://doi.org/..."
+  featured: true
+
+- year: 2025
+  title: "Another publication title"
+  authors: "Author A, Author B, Sai Ma, et al."
+  journal: "Journal Name"
+  url: ""
+  featured: false
