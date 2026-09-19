@@ -1,20 +1,316 @@
-- year: 2026
-  title: "Your Nature paper title"
-  authors: "Author A, Author B, Sai Ma, et al."
-  journal: "Nature"
-  url: "https://doi.org/..."
-  featured: true
+# Extracted from CV_Sai Ma_20260911.docx
+# featured: true = CV 'Selected Publications' (items 1–19)
+# url fields left blank for DOI/PubMed links
 
 - year: 2026
-  title: "Your UHRF1 paper title"
-  authors: "Author A, Author B, Sai Ma, et al."
-  journal: "Nature Communications"
-  url: "https://doi.org/..."
+  title: Human skin rejuvenation via mRNA
+  authors: Li, L.*, Tang, Z., Portillo, X., Arora, R., Yang, M., Mintzer, E., Zhang, Z., Sol, S., Boncimino, F., Han, P., Dion, M., Di Cicco, E., Majewski, D.D., Titelman, A.A., Plesa, A.M., Shadpour, M., McNamee, S.M., Restrepo, P., Ji, A.L., Lee, J., Zheng, Y., Li, X., Wang, Y., Tam, J.M., McGee, J.S., Z, Y.S., Artzi, N., Murphy, G.F., Mandinova, A., Kupper, T.S., Ma, S.* & Church, G.*
+  journal: Nature (accepted)
+  url: ''
   featured: true
-
+- year: 2026
+  title: Uhrf1 loss alters CTCF-associated topological organization during early mouse embryogenesis
+  authors: Kurowski, A.†, Zhu, B.†, Sun, Y., Jain, N., Chan, A., Walsh, M.* & Ma, S.*
+  journal: Nature Communications (accepted)
+  url: ''
+  featured: true
+- year: 2020
+  title: Chromatin potential identified by shared single-cell profiling of RNA and chromatin
+  authors: Ma, S., Zhang, B., LaFave, L., Chiang, Z., Hu, Y., Ding, J., Brack, A., Kartha, V., Law, T., Lareau, C., Hsu, C.H., Regev, A. & Buenrostro, J.
+  journal: Cell, 183, 1103–1116
+  url: ''
+  featured: true
+- year: 2018
+  title: Cell-type-specific brain methylomes profiled via ultralow-input microfluidics
+  authors: Ma, S., Revenga, M., Sun, Z., Sun, C., Murphy, T.W., Xie, H., González-Maeso, J. & Lu, C.
+  journal: Nature Biomedical Engineering, 2, 183–194
+  url: ''
+  featured: true
+- year: 2018
+  title: Low-input and multiplexed microfluidic assay reveals epigenomic variation across cerebellum and prefrontal cortex (SurfaceChIP-seq)
+  authors: Ma, S., Hsieh, Y., Ma, J. & Lu, C.
+  journal: Science Advances, 4, eaar8187
+  url: ''
+  featured: true
+- year: 2026
+  title: A single-cell spatial transcriptomic census of human skin anatomy
+  authors: Restrepo, P., Wilder, A., Houser, A., Ramirez, A., …, Gnjatic, S., Ma, S. & Ji, A.L.
+  journal: Nature Genetics, 58, 903–915
+  url: ''
+  featured: true
 - year: 2025
-  title: "Another publication title"
-  authors: "Author A, Author B, Sai Ma, et al."
-  journal: "Journal Name"
-  url: ""
+  title: Myeloid progenitor dysregulation fuels immunosuppressive macrophages in tumours
+  authors: Hegde, S., Giotti, B.†, Soong, B.†, Halasz, L., Berichel, J., Magen, A., Kloeckner, B., Mattiuz, R., Park, M., Marks, A., Belabed, M., Chin, T., Troncoso, L., Reid, A., Chung, G., D'souza, D., Dawson, T., Kim-Schulze, S., Flores, R., Kaufman, A., Ginhoux, F., Tsankov, A., Marron, T., Ma, S., Brown, B. & Merad, M.
+  journal: Nature, 646, 1214–1222
+  url: ''
+  featured: true
+- year: 2025
+  title: Multiscale footprints reveal the organization of cis-regulatory elements
+  authors: Hu, Y.*, Horlbeck, M.*, Zhang, R.*, Ma, S., et al.
+  journal: Nature, 638, 779–786
+  url: ''
+  featured: true
+- year: 2025
+  title: HBO1 functions as an epigenetic barrier to hepatocyte plasticity and reprogramming during liver injury
+  authors: Yuan, W-C., Earl, A., Ma, S., Alcedo, K., Russell, J., Duarte, F., Chu, Y-T., Chang, P-C., Chen, H-H., Chi, H-H., Zhu, Q., Rodriguez-Fraticelli, A., Patel, S., Lee, Y-R., Buenrostro, J. & Camargo, F.
+  journal: Cell Stem Cell, 32, 6, 990–1005.e8
+  url: ''
+  featured: true
+- year: 2023
+  title: Droplet-based bisulfite sequencing for high-throughput profiling of single-cell DNA methylomes
+  authors: Zhang, Q., Ma, S., Liu, Z., Zhu, B., Zhou, Z., Li, G., Meana, J.J., González-Maeso, J., Lu, C.
+  journal: Nature Communications, 14, 4672
+  url: ''
+  featured: true
+- year: 2023
+  title: A transcription factor atlas of directed differentiation
+  authors: Joung, J., Ma, S.*, Tay, T.*, Geiger-Schuller, K.R.*, Kirchgatterer, P.C., Verdine, V.K., Guo, B., Arias-Garcia, A.A., Allen, E., Singh, A., Kuksenko, O., Abudayyeh, O.O., Gootenberg, J.S., Fu, Z., Macrae, R.K., Buenrostro, J.D., Regev, A. & Zhang, Z.
+  journal: Cell, 186, 209–229
+  url: ''
+  featured: true
+- year: 2022
+  title: Spatial profiling of chromatin accessibility in mouse and human tissues
+  authors: Deng, Y., Bartosovic, M., Ma, S., et al.
+  journal: Nature, 609, 375–383
+  url: ''
+  featured: true
+- year: 2022
+  title: Functional inference of gene regulation using single-cell multi-omics
+  authors: Kartha, V.K., Duarte, F., Hu, Y., Ma, S., Chew, J., Lareau, C., Earl, A., Burkett, Z., Kohlway, A., Lebofsky, R. & Buenrostro, J.
+  journal: Cell Genomics, 2, 100166
+  url: ''
+  featured: true
+- year: 2022
+  title: Temporally-divergent regulatory mechanisms govern neuronal development and diversification in the neocortex
+  authors: Yuan, W., Ma, S., Brown, J., Kim, K., Murek, V., Trastulla, L., Meissner, A., Lodato, S., Shetty, A., Levin, J., Buenrostro, J., Ziller, M. & Arlotta, P.
+  journal: Nature Neuroscience, 25, 1049–1058
+  url: ''
+  featured: true
+- year: 2022
+  title: Smarca4 inactivation promotes lineage-specific transformation and early metastatic features in the lung
+  authors: Concepcion, C., Ma, S., et al.
+  journal: Cancer Discovery, 12, 562–585
+  url: ''
+  featured: true
+- year: 2021
+  title: Corticosterone inhibits GAS6 to govern hair follicle stem-cell quiescence
+  authors: Choi, S., Zhang, B., Ma, S., et al.
+  journal: Nature, 592, 428–432
+  url: ''
+  featured: true
+- year: 2020
+  title: Hyperactivation of sympathetic nerves drives depletion of melanocyte stem cells
+  authors: Zhang, B., Ma, S., et al.
+  journal: Nature, 577, 676–681
+  url: ''
+  featured: true
+- year: 2020
+  title: Epigenomic state transitions characterize tumor progression in mouse lung adenocarcinoma
+  authors: LaFave, L., Kartha, V.*, Ma, S.*, et al.
+  journal: Cancer Cell, 38, 212–228
+  url: ''
+  featured: true
+- year: 2020
+  title: Inference and effects of barcode multiplets in droplet-based single-cell assays
+  authors: Lareau, C., Ma, S., Duarte, F. & Buenrostro, J.
+  journal: Nature Communications, 11, 866
+  url: ''
+  featured: true
+- year: 2026
+  title: A CRISPR-Based Humanized Model Reveals Cooperative Role of STAG2 Loss in Familial GATA2-Deficient MDS Progression
+  authors: Freed, G., Quijada-Alamo, M., Lee, L., Poddar, N., Autar, S., Carcamo, S., Fiore, P., Wang, K., Martinez, I.G., Zhang, M., Saniei, S., Chao, C., Mekerishvili, L., Diaz, Z., Ma, S., Hasson, D. & Wagenblast, E.
+  journal: Blood Advances (accepted)
+  url: ''
+  featured: false
+- year: 2026
+  title: Rationale design in materials and pharmacokinetics for approaches to enable effective brain genome editing (Review)
+  authors: Lee, S., Shrestha, S., Huang, Z., Chi, C.-W., Mintz, R.L., He, S., Ma, S., Straubinger, R.M., Chavez, A., Mager, D.E.* & Lao, Y-H.*
+  journal: Cell Biomaterials (accepted)
+  url: ''
+  featured: false
+- year: 2026
+  title: Exploring ADNP syndrome variant pathogenesis through advanced iPSC-derived cortical interneuron models
+  authors: Hu, R.†, Lee, L.†, …, Ma, S.* & Yang, N.*
+  journal: Stem Cell Reports (accepted)
+  url: ''
+  featured: false
+- year: 2026
+  title: ME-seq protocol V1 a single cell trimodal assay
+  authors: Zhu, B. & Ma, S.
+  journal: Protocols.io
+  url: ''
+  featured: false
+- year: 2026
+  title: Layering methylome and transcriptome in the same tissue slice
+  authors: Xiao, Y.* & Ma, S.*
+  journal: Genomics, Proteomics & Bioinformatics, 24 (1), qzaf136
+  url: ''
+  featured: false
+- year: 2024
+  title: Multi-Omics profiling of human hippocampus reveals increased inflammation and transcription instability in major depressive disorder
+  authors: Xiao, Y., Mariani, M., …, Ma, S., …, Boldrini, M.
+  journal: Biological Psychiatry, 95 (10), S68–S69
+  url: ''
+  featured: false
+- year: 2024
+  title: Chromatin-based mechanisms of diversification of regulatory and pro-inflammatory states reveal a role for BACH2 in Th17-based autoimmunity
+  authors: Thakore, P., Schnell, A., Zhao, M., Huang, L., Hou, Y., Christian, E., Zaghouani, S., Wang, C., Singh, V., Ma, S., et al.
+  journal: Nature Immunology, 25, 1395–1410
+  url: ''
+  featured: false
+- year: 2023
+  title: Epigenetic memory of coronavirus infection in innate immune cells and their progenitors
+  authors: Cheong, J.G.*, Ravishankar, A.*, Sharma, S.*, Parkhurst, C.*, Grassmann, S., Wingert, C.K., Laurent, P., Ma, S., et al.
+  journal: Cell, 186 (18), 3882–3902
+  url: ''
+  featured: false
+- year: 2023
+  title: Structural and functional properties of mSWI/SNF chromatin remodeling complexes revealed through single-cell perturbation screens
+  authors: Otto, J.*, Ursu, O.*, Wu, A., Cuocco, M., Ma, S., et al.
+  journal: Molecular Cell, 83, 1–18
+  url: ''
+  featured: false
+- year: 2023
+  title: Spatially resolved co-sequencing of epigenome and transcriptome at cellular level
+  authors: Zhang, D.*, Deng, Y.*, Kukanja, P., Bartosovic, M., Su, G., Bao, S., Liu, Y., Xiao, Y., Ma, S., et al.
+  journal: Nature, 616, 113–122
+  url: ''
+  featured: false
+- year: 2022
+  title: Cell-type-specific epigenomic variations associated with BRCA1 mutation in pre-cancer human breast tissues
+  authors: Hsieh, Y.P., Naler, L., Ma, S. & Lu, C.
+  journal: NAR Genomics and Bioinformatics, 4(1), lqac006
+  url: ''
+  featured: false
+- year: 2021
+  title: SHARE-seq V1
+  authors: Ma, S., Regev, A. & Buenrostro, J.
+  journal: Protocols.io
+  url: ''
+  featured: false
+- year: 2021
+  title: Protocol for single-cell ATAC-sequencing using combinatorial indexing
+  authors: Del Priore, I.*, Ma, S.*, Strecker, J., Jacks, T., LaFave, L. & Buenrostro, J.
+  journal: STAR Protocols, 2, 100583
+  url: ''
+  featured: false
+- year: 2021
+  title: Single-cell ATAC-seq reveals GATA2-dependent priming defect in myeloid and a maturation bottleneck in lymphoid lineages
+  authors: Avagyan, S., Weber, M.C., Ma, S., Prasad, M., Mannherz, W.P., Yang, S., Buenrostro, J.D. & Zon, L.I.
+  journal: Blood Advances, 5, 2673–1686
+  url: ''
+  featured: false
+- year: 2021
+  title: Deep learning and alignment of spatially resolved single-cell transcriptomes with Tangram
+  authors: Biancalani, T., Scalia, G., Buffoni, L., Avasthi, R., Lu, Z., Sanger, A., Tokcan, N., Vanderburg, C., Segerstolpe, A., Zhang, M., Avraham-Davidi, I., Vickovic, S., Nitzan, M., Ma, S., et al.
+  journal: Nature Methods, 18, 1352–1362
+  url: ''
+  featured: false
+- year: 2021
+  title: ELF3 activated by a superenhancer and an autoregulatory feedback loop is required for high-level HLA-C expression on extravillous trophoblasts
+  authors: Li, Q., Meissner, T., Wang, F., Du, Z., Ma, S., et al.
+  journal: PNAS, 118, e2025512118
+  url: ''
+  featured: false
+- year: 2020
+  title: Sustained activation of ampk enhances differentiation of human iPSC-derived cardiomyocytes via sirtuin activation
+  authors: Sarikhani, M., Garbern, J., Ma, S., et al.
+  journal: Stem Cell Report, 20, 498–514
+  url: ''
+  featured: false
+- year: 2019
+  title: Transcriptional atlas of intestinal immune cells reveals that neuropeptide α-cgrp modulates group 2 innate lymphoid cell responses
+  authors: Xu, H., Ding, J., Porter, C., Wallrapp, A., Tabaka, M., Ma, S., et al.
+  journal: Immunity, 51, 696–708
+  url: ''
+  featured: false
+- year: 2019
+  title: A diffusion-based microfluidic device for single-cell RNA-seq
+  authors: Sarma, M., Lee, J., Ma, S., Li, S. & Lu, C.
+  journal: Lab on a Chip, 19, 1247–1256
+  url: ''
+  featured: false
+- year: 2018
+  title: Recent advances in the use of microfluidic technologies for single cell analysis
+  authors: Murphy, T.W., Zhang, Q., Naler, L., Ma, S. & Lu, C.
+  journal: Analyst, 143, 60–80 (review)
+  url: ''
+  featured: false
+- year: 2018
+  title: Microfluidic low-Input fluidized-bed enabled ChIP-seq device for automated and parallel analysis of histone modifications
+  authors: Murphy, T.W., Hsieh, Y., Ma, S., Zhu, Y. & Lu, C.
+  journal: Analytical Chemistry, 90, 7666–7674
+  url: ''
+  featured: false
+- year: 2017
+  title: Immunomagnetic separation of tumor initiating cells by screening two surface markers
+  authors: Sun, C., Hsieh, Y., Ma, S., Geng, S., Cao, Z., Li, L. & Lu, C.
+  journal: Scientific Reports, 7, 40632
+  url: ''
+  featured: false
+- year: 2017
+  title: Microfluidics for genome-wide studies involving next generation sequencing
+  authors: Ma, S., Murphy, T.W. & Lu, C.
+  journal: Biomicrofluidics, 11, 021501 (review, Editor’s Picks)
+  url: ''
+  featured: false
+- year: 2016
+  title: Paramagnetic structures within a microfluidic channel for enhanced immunomagnetic isolation and surface patterning of cells
+  authors: Sun, C., Hassanisaber, H., Yu, R., Ma, S., Verbridge, S.S. & Lu, C.
+  journal: Scientific Reports, 6, 29407
+  url: ''
+  featured: false
+- year: 2016
+  title: RNA extraction from a mycobacterium under ultrahigh electric field intensity
+  authors: Ma, S., Bryson, B.D., Sun, C., Fortune, S.M. & Lu, C.
+  journal: Analytical Chemistry, 88, 5053–5057
+  url: ''
+  featured: false
+- year: 2015
+  title: Optimal design of microfluidic platforms for diffusion-based PCR for “one-pot” analysis of cells
+  authors: Crowa, J., Achenie, L.E.K., Lu, C., Ma, S., Loufakis, D.N., Cao, Z. & Chang, Y.
+  journal: Computer Aided Chemical Engineering, 37, 1199–1204
+  url: ''
+  featured: false
+- year: 2014
+  title: Focusing of mammalian cells under an ultrahigh pH gradient created by unidirectional electropulsation in a confined microchamber
+  authors: Loufakis, D.N., Cao, Z., Ma, S., Mittelman, D. & Lu, C.
+  journal: Chemical Science, 5, 3331–3337
+  url: ''
+  featured: false
+- year: 2014
+  title: Electroporation-delivered fluorescent protein biosensors for probing molecular activities in cells without genetic encoding
+  authors: Sun, C., Ouyang, M., Cao, Z., Ma, S., Alqublan, H., Sriranganathan, N., Wang, Y. & Lu, C.
+  journal: Chemical Communications, 50, 11536–11539
+  url: ''
+  featured: false
+- year: 2014
+  title: Diffusion-based microfluidic PCR for “one-pot” analysis of cells
+  authors: Ma, S., Loufakis, D.N., Cao, Z., Chang, Y., Achenie, L.E.K. & Lu, C.
+  journal: Lab on a Chip, 14, 2905–2909 (selected as cover; hot article)
+  url: ''
+  featured: false
+- year: 2014
+  title: Electroporation-based delivery of cell-penetrating peptide conjugates of peptide nucleic acids for antisense inhibition of intracellular bacteria
+  authors: Ma, S., Schroeder, B., Sun, C., Loufakis, D.N., Cao, Z., Sriranganathan, N. & Lu, C.
+  journal: Integrative Biology, 2014, 973–978
+  url: ''
+  featured: false
+- year: 2014
+  title: Visible paper chip immunoassay for rapid determination of bacteria in water distribution system
+  authors: Ma, S., Tang, Y., Liu, J. & Wu, J.
+  journal: Talanta, 120, 135–140
+  url: ''
+  featured: false
+- year: 2012
+  title: Capture, enrichment, and mass spectrometric detection of low‐molecular‐weight biomarkers with nanoporous silicon microparticles
+  authors: Tan, J., Zhao, W., Yu, J., Ma, S., Sailor, M.J. & Wu, J.
+  journal: Advanced Healthcare Materials, 1, 742–750
+  url: ''
+  featured: false
+- year: 2009
+  title: Solid high-proton conductors based on heteropoly acids
+  authors: Liu, Z., Wu, Q., Song, X. & Ma, S.
+  journal: Progress in Chemistry, 21, 982–989
+  url: ''
   featured: false
