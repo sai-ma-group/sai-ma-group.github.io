@@ -6,37 +6,35 @@ title: Publications
 <section class="page-hero">
   <div class="container">
     <p class="eyebrow">Publications</p>
-
     <h1>Publications</h1>
-
     <p class="hero-text">
-      Selected publications from the Sai Ma Lab.
+      Selected publications from the Sai Ma Lab and collaborators.
     </p>
   </div>
 </section>
 
 
+<!-- FEATURED -->
 <section class="section">
-  <div class="container publication-list">
+  <div class="container">
 
-    {% assign pubs = site.data.publications | sort: "year" | reverse %}
+    <p class="section-label">Featured</p>
+    <h2>Selected publications</h2>
 
-    {% assign current_year = "" %}
+    {% assign featured_pubs = site.data.publications
+      | where: "featured", true
+      | sort: "year"
+      | reverse %}
 
-    {% for pub in pubs %}
+    <div class="featured-publications">
 
-      {% if pub.year != current_year %}
+      {% for pub in featured_pubs %}
 
-        <div class="publication-year">
+      <article class="featured-pub">
+
+        <div class="featured-year">
           {{ pub.year }}
         </div>
-
-        {% assign current_year = pub.year %}
-
-      {% endif %}
-
-
-      <article class="publication">
 
         <h3>
           {% if pub.url and pub.url != "" %}
@@ -57,6 +55,63 @@ title: Publications
         </p>
 
       </article>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- OTHER PUBLICATIONS -->
+<section class="section publications-all">
+
+  <div class="container publication-list">
+
+    <p class="section-label">Complete list</p>
+    <h2>Other publications</h2>
+
+    {% assign pubs = site.data.publications | sort: "year" | reverse %}
+    {% assign current_year = "" %}
+
+    {% for pub in pubs %}
+
+      {% unless pub.featured %}
+
+        {% if pub.year != current_year %}
+
+          <div class="publication-year">
+            {{ pub.year }}
+          </div>
+
+          {% assign current_year = pub.year %}
+
+        {% endif %}
+
+        <article class="publication">
+
+          <h3>
+            {% if pub.url and pub.url != "" %}
+              <a href="{{ pub.url }}" target="_blank">
+                {{ pub.title }}
+              </a>
+            {% else %}
+              {{ pub.title }}
+            {% endif %}
+          </h3>
+
+          <p class="publication-authors">
+            {{ pub.authors }}
+          </p>
+
+          <p class="publication-journal">
+            {{ pub.journal }}
+          </p>
+
+        </article>
+
+      {% endunless %}
 
     {% endfor %}
 
