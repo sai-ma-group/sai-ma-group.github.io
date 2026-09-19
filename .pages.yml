@@ -1,0 +1,66 @@
+media:
+  input: images
+  output: /images
+
+content:
+  - name: home
+    label: Home
+    type: file
+    path: _data/home.yml
+    format: yaml
+    operations:
+      delete: false
+    fields:
+      - name: hero_title
+        label: Main headline
+        type: string
+      - name: hero_text
+        label: Intro text
+        type: text
+      - name: hero_image
+        label: Hero image
+        type: image
+
+  - name: team
+    label: Team
+    type: file
+    path: _data/team.yml
+    format: yaml
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: name
+        label: Name
+        type: string
+      - name: role
+        label: Position
+        type: string
+      - name: photo
+        label: Photo
+        type: image
+      - name: bio
+        label: Short bio
+        type: text
+
+  - name: news
+    label: News
+    type: file
+    path: _data/news.yml
+    format: yaml
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: date
+        label: Date
+        type: string
+      - name: title
+        label: Headline
+        type: string
+      - name: summary
+        label: Summary
+        type: text
+      - name: image
+        label: Image
+        type: image
