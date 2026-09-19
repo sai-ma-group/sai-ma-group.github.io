@@ -1,0 +1,64 @@
+---
+layout: default
+title: Publications
+---
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Publications</p>
+
+    <h1>Publications</h1>
+
+    <p class="hero-text">
+      Selected publications from the Sai Ma Lab.
+    </p>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container publication-list">
+
+    {% assign pubs = site.data.publications | sort: "year" | reverse %}
+
+    {% assign current_year = "" %}
+
+    {% for pub in pubs %}
+
+      {% if pub.year != current_year %}
+
+        <div class="publication-year">
+          {{ pub.year }}
+        </div>
+
+        {% assign current_year = pub.year %}
+
+      {% endif %}
+
+
+      <article class="publication">
+
+        <h3>
+          {% if pub.url and pub.url != "" %}
+            <a href="{{ pub.url }}" target="_blank">
+              {{ pub.title }}
+            </a>
+          {% else %}
+            {{ pub.title }}
+          {% endif %}
+        </h3>
+
+        <p class="publication-authors">
+          {{ pub.authors }}
+        </p>
+
+        <p class="publication-journal">
+          {{ pub.journal }}
+        </p>
+
+      </article>
+
+    {% endfor %}
+
+  </div>
+</section>
