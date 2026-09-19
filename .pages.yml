@@ -64,3 +64,36 @@ content:
       - name: image
         label: Image
         type: image
+        
+  - name: publications
+    label: Publications
+    type: file
+    path: _data/publications.yml
+    format: yaml
+    list: true
+    operations:
+      delete: true
+    fields:
+      - name: year
+        label: Year
+        type: number
+
+      - name: title
+        label: Title
+        type: string
+
+      - name: authors
+        label: Authors
+        type: text
+
+      - name: journal
+        label: Journal
+        type: string
+
+      - name: url
+        label: Publication link
+        type: string
+
+      - name: featured
+        label: Featured publication
+        type: boolean
