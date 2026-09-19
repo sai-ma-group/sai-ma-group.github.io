@@ -33,7 +33,11 @@ title: Home
 
     {% if home.hero_image and home.hero_image != "" %}
       <div class="hero-visual">
-        <img src="{{ home.hero_image }}" alt="Sai Ma Lab research">
+        <img
+          src="{{ home.hero_image }}"
+          alt="Sai Ma Lab research"
+          style="width: {{ home.hero_image_width | default: 220 }}px; max-width: 100%; height: auto;"
+        >
       </div>
     {% endif %}
 
