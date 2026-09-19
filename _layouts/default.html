@@ -14,7 +14,9 @@
 <header class="site-header">
   <div class="container nav">
 
-    <a href="/" class="logo">Sai Ma Lab</a>
+  <a href="/" class="logo">Sai Ma Lab</a>
+
+  <div class="nav-right">
 
     <nav>
       <a href="/research.html">Research</a>
@@ -24,7 +26,15 @@
       <a href="/join.html">Join Us</a>
     </nav>
 
+    {% if site.data.home.lab_logo %}
+      <a href="/" class="header-logo">
+        <img src="{{ site.data.home.lab_logo }}" alt="Sai Ma Lab logo">
+      </a>
+    {% endif %}
+
   </div>
+
+</div>
 </header>
 
 <main>
