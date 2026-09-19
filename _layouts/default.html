@@ -12,13 +12,25 @@
 <body>
 
 <header class="site-header">
-  <div class="container nav">
+  <div
+    class="container"
+    style="
+      min-height: 76px;
+      display: grid;
+      grid-template-columns: 1fr auto 80px;
+      align-items: center;
+      gap: 32px;
+    "
+  >
 
-  <a href="/" class="logo">Sai Ma Lab</a>
+    <!-- LEFT -->
+    <a href="/" class="logo">
+      Sai Ma Lab
+    </a>
 
-  <div class="nav-right">
 
-    <nav>
+    <!-- CENTER -->
+    <nav style="display: flex; gap: 30px; align-items: center;">
       <a href="/research.html">Research</a>
       <a href="/team.html">Team</a>
       <a href="/publications.html">Publications</a>
@@ -26,18 +38,31 @@
       <a href="/join.html">Join Us</a>
     </nav>
 
+
+    <!-- RIGHT -->
     {% if site.data.home.lab_logo %}
-      <a href="/" class="header-logo">
-        <img src="{{ site.data.home.lab_logo }}"
-          alt="Sai Ma Lab logo"
-          style="width: 100px; height: 100px; object-fit: contain; display: block;"
+      <a
+        href="/"
+        style="
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+        "
       >
+        <img
+          src="{{ site.data.home.lab_logo }}"
+          alt="Sai Ma Lab logo"
+          style="
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            display: block;
+          "
+        >
       </a>
     {% endif %}
 
   </div>
-
-</div>
 </header>
 
 <main>
