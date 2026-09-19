@@ -18,7 +18,7 @@ content:
         label: Intro text
         type: text
       - name: hero_image
-        label: Hero image
+        label: Image width (pixels)
         type: image
 
   - name: team
