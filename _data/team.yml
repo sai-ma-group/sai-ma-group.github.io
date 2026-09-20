@@ -12,6 +12,10 @@ current:
     role: MD/PhD Student
     photo: /images/team/current/brian-soong.jpg
 alumni:
+  - name: Bohan Zhu, PhD
+    role: Postdoctoral Fellow
+    next: Retro Biosciences, Scientist
+    photo: /images/team/alumni/bohan-zhu.jpg
   - name: Feifei Yuan
     role: Postdoc, 2023–2024
     next: Postdoctoral Fellow at Columbia University
@@ -56,10 +60,6 @@ alumni:
   - name: Nazifa Salsabeel
     role: Rotation Student
     photo: /images/team/alumni/nazifa-salsabeel.jpg
-  - name: Bohan Zhu, PhD
-    role: Postdoctoral Fellow
-    next: Retro Biosciences, Scientist
-    photo: /images/team/alumni/bohan-zhu.jpg
   - name: Shanell Zou
     role: Summer Intern
     next: USC, undergraduate
