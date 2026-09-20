@@ -1,4 +1,83 @@
-- name: "Sai Ma"
-  role: "Principal Investigator"
-  photo: ""
-  bio: "Assistant Professor of Genetics and Genomic Sciences at the Icahn School of Medicine at Mount Sinai."
+current:
+- name: Sai Ma, PhD
+  role: Principal Investigator
+  photo: /images/team/current/sai-ma.jpg
+- name: Bohan Zhu, PhD
+  role: Postdoctoral Fellow
+  photo: /images/team/current/bohan-zhu.jpg
+- name: Zhe Wang, PhD/MD
+  role: Postdoctoral Fellow
+  photo: /images/team/current/zhe-wang.jpg
+- name: Zhicong (Leon) Liao
+  role: PhD Student
+  photo: /images/team/current/zhicong-leon-liao.jpg
+- name: Brian Soong
+  role: MD/PhD Student
+  photo: /images/team/current/brian-soong.jpg
+- name: Shanell Zou
+  role: Summer Intern
+  photo: /images/team/current/shanell-zou.jpg
+alumni:
+- name: Feifei Yuan
+  role: Postdoc, 2023–2024
+  next: Postdoctoral Fellow at Columbia University
+  photo: /images/team/alumni/feifei-yuan.jpg
+- name: Hyeonseo Lee
+  role: Intern, 2023
+  next: Pre-med at Washington University in St. Louis
+  photo: /images/team/alumni/hyeonseo-lee.jpg
+- name: Isaiah Raghubar
+  role: Intern, 2024
+  next: Brigham and Women’s Hospital
+  photo: ''
+- name: Jiayi Li
+  role: Intern, 2024
+  next: Master’s student at Harvard University
+  photo: /images/team/alumni/jiayi-li.png
+- name: Ashley Chan
+  role: Intern, 2024
+  next: ''
+  photo: /images/team/alumni/ashley-chan.jpg
+- name: Vicky Zheng
+  role: Intern, 2024
+  next: ''
+  photo: ''
+- name: Nima Assad
+  role: MD/PhD Student, 2022–2024
+  next: ''
+  photo: /images/team/alumni/nima-assad.png
+- name: Liying Wang
+  role: Visiting PhD Student, 2025
+  next: ''
+  photo: /images/team/alumni/liying-wang.jpg
+- name: Federico Di Tullio
+  role: PhD Student, 2023–2025
+  next: Postdoctoral Fellow at UC San Diego
+  photo: /images/team/alumni/federico-di-tullio.jpg
+- name: Dawei Tang
+  role: Master’s Student, 2025–2026
+  next: ''
+  photo: /images/team/alumni/dawei-tang.jpg
+- name: Lillian Chang
+  role: Rotation Student
+  next: ''
+  photo: /images/team/alumni/lillian-chang.jpg
+- name: Arushi Samal
+  role: Rotation Student
+  next: ''
+  photo: /images/team/alumni/arushi-samal.jpg
+- name: Nazifa Salsabeel
+  role: Rotation Student
+  next: ''
+  photo: /images/team/alumni/nazifa-salsabeel.jpg
+gallery:
+- image: /images/team/gallery/federico-graduation.jpg
+  caption: Celebrating Federico’s PhD graduation, 2025
+- image: /images/team/gallery/brian-lab-life.jpeg
+  caption: Lab life
+- image: /images/team/gallery/leon-lab-life.jpg
+  caption: Lab life
+- image: /images/team/gallery/zhe-wang-outdoors.jpg
+  caption: Outside the lab
+- image: /images/team/gallery/sai-ma-outdoors.png
+  caption: Outside the lab
