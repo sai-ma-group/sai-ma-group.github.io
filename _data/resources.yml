@@ -51,7 +51,7 @@
 - category: "Fetal Liver"
   title: "Fetal liver HSPC data exploration"
   description: "Interactive exploration of fetal liver hematopoietic stem and progenitor cell data."
-  url: "https://malabsinai-nas.synology.me"
+  url: "https://malabsinai-nas.synology.me/fetal_liver/"
 
 - category: "Fetal Liver"
   title: "Fetal liver ATAC tracks"
