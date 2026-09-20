@@ -476,6 +476,34 @@ footer {
   max-width: 760px;
 }
 
+.news-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 28px;
+  align-items: start;
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+}
+
+.news-card-content {
+  min-width: 0;
+}
+
+.news-card-date {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.news-card h2 {
+  font-size: 1.4rem;
+  margin: 0 0 10px;
+}
+
+.news-card p {
+  margin: 0;
+  color: var(--muted);
+}
 .news-card-image img {
   width: 100%;
   max-width: 220px;
