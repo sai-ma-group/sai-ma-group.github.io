@@ -516,3 +516,24 @@ footer {
   border-radius: 10px;
   display: block;
 }
+
+/* JOIN */
+.join-text {
+  color: var(--muted);
+  font-size: 1.05rem;
+  max-width: 820px;
+}
+
+.join-email-button {
+  margin-top: 24px;
+}
+
+.opportunity {
+  padding: 42px 0;
+  border-top: 1px solid var(--line);
+}
+
+.opportunity h2 {
+  margin: 8px 0 16px;
+  font-size: 1.8rem;
+}
