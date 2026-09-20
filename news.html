@@ -1,0 +1,57 @@
+---
+layout: default
+title: News
+---
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Lab News</p>
+    <h1>News & milestones</h1>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container news-archive">
+
+    {% assign news = site.data.news | sort: "date" | reverse %}
+
+    {% for item in news %}
+
+      <article class="news-card">
+
+        {% if item.image and item.image != "" %}
+          <div class="news-card-image">
+            <img src="{{ item.image }}" alt="{{ item.title }}">
+          </div>
+        {% endif %}
+
+        <div class="news-card-content">
+
+          <div class="news-card-date">
+            {{ item.date }}
+          </div>
+
+          <h2>{{ item.title }}</h2>
+
+          <p>{{ item.summary }}</p>
+
+          {% if item.credit and item.credit != "" %}
+            <div class="news-credit">
+              Image: {{ item.credit }}
+            </div>
+          {% endif %}
+
+          {% if item.link and item.link != "" %}
+            <a href="{{ item.link }}" target="_blank" class="text-link">
+              Read more →
+            </a>
+          {% endif %}
+
+        </div>
+
+      </article>
+
+    {% endfor %}
+
+  </div>
+</section>
