@@ -116,10 +116,8 @@ nav a:hover {
 
 .hero h1 {
   font-size: clamp(2.4rem, 4.5vw, 4rem);
-  line-height: 0.98;
-  letter-spacing: -0.055em;
-  margin: 22px 0 32px;
-  max-width: 500px;
+  white-space: nowrap;
+  max-width: none;
 }
 
 .hero-text {
