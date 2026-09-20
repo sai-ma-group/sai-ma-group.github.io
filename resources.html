@@ -17,57 +17,53 @@ title: Resources
 
 
 <section class="section">
-  <div class="container">
+  <div class="container resource-list">
 
     {% assign categories = site.data.resources | map: "category" | uniq %}
 
     {% for category in categories %}
 
-      <div class="resource-category">
+      <div class="resource-section">
 
-        <p class="section-label">
+        <div class="resource-section-title">
           {{ category }}
-        </p>
+        </div>
 
-        <div class="resource-grid">
+        {% assign items = site.data.resources | where: "category", category %}
 
-          {% assign items = site.data.resources | where: "category", category %}
+        {% for item in items %}
 
-          {% for item in items %}
+          {% if item.url and item.url != "" %}
+            <a
+              href="{{ item.url }}"
+              target="_blank"
+              class="resource-item"
+            >
+          {% else %}
+            <div class="resource-item">
+          {% endif %}
 
-            {% if item.url and item.url != "" %}
-              <a
-                href="{{ item.url }}"
-                target="_blank"
-                class="resource-card-link"
-              >
-            {% endif %}
+              <div class="resource-item-content">
 
-            <article class="resource-card">
+                <h3>{{ item.title }}</h3>
 
-              <h3>
-                {{ item.title }}
-              </h3>
+                <p>
+                  {{ item.description }}
+                </p>
 
-              <p>
-                {{ item.description }}
-              </p>
+              </div>
 
               {% if item.url and item.url != "" %}
-                <span class="resource-card-arrow">
-                  Open resource →
-                </span>
+                <div class="resource-item-arrow">→</div>
               {% endif %}
 
-            </article>
+          {% if item.url and item.url != "" %}
+            </a>
+          {% else %}
+            </div>
+          {% endif %}
 
-            {% if item.url and item.url != "" %}
-              </a>
-            {% endif %}
-
-          {% endfor %}
-
-        </div>
+        {% endfor %}
 
       </div>
 
