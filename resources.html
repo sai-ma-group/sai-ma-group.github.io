@@ -5,12 +5,12 @@ title: Resources
 
 <section class="page-hero">
   <div class="container">
-    <p class="eyebrow">Open Science</p>
+    <p class="eyebrow">Resources</p>
     <h1>Software & Resources</h1>
 
     <p class="hero-text">
-      Protocols, computational tools, analysis pipelines, and interactive
-      resources developed by the Sai Ma Lab and collaborators.
+      Protocols, analysis pipelines, computational tools, and interactive resources
+      developed by the Sai Ma Lab and collaborators.
     </p>
   </div>
 </section>
@@ -25,11 +25,11 @@ title: Resources
 
       <div class="resource-category">
 
-        <p class="section-label">
+        <h2 class="resource-category-title">
           {{ category }}
-        </p>
+        </h2>
 
-        <div class="resource-grid">
+        <div class="resource-list">
 
           {% assign items = site.data.resources | where: "category", category %}
 
@@ -39,28 +39,19 @@ title: Resources
               <a
                 href="{{ item.url }}"
                 target="_blank"
-                class="resource-card"
+                class="resource-row"
               >
             {% else %}
-              <div class="resource-card">
+              <div class="resource-row">
             {% endif %}
 
-                <div class="resource-type">
-                  {{ item.type }}
+                <div>
+                  <h3>{{ item.title }}</h3>
+                  <p>{{ item.description }}</p>
                 </div>
 
-                <h2>
-                  {{ item.title }}
-                </h2>
-
-                <p>
-                  {{ item.description }}
-                </p>
-
                 {% if item.url and item.url != "" %}
-                  <span class="resource-link">
-                    Open resource →
-                  </span>
+                  <div class="resource-arrow">→</div>
                 {% endif %}
 
             {% if item.url and item.url != "" %}
