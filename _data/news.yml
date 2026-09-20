@@ -1,327 +1,290 @@
-# News archive migrated from saimalab.com
-# Images use local GitHub Pages paths under /images/news/
-
+- date: 2026-09
+  title: Congratulations to Leon on his travel award and selected talk!
+  summary: Leon Liao received a travel award and was selected to present his work
+    in a talk at the MC2 Consortium Annual Meeting. Congratulations, Leon!
+  image: /images/team/current/zhicong-leon-liao.jpg
 - date: 2026-07
   title: UHRF1 preprint now available online
-  summary: Our new preprint, “Uhrf1 loss disrupts Ctcf-associated chromatin organization during early mouse embryogenesis,” is now available online. This study shows how UHRF1 coordinates DNA methylation, chromatin architecture, and lineage stabilization during early embryonic development leveraging ME-seq.
+  summary: Our new preprint, “Uhrf1 loss disrupts Ctcf-associated chromatin
+    organization during early mouse embryogenesis,” is now available online.
+    This study shows how UHRF1 coordinates DNA methylation, chromatin
+    architecture, and lineage stabilization during early embryonic development
+    leveraging ME-seq.
   image: /images/news/2026-07-uhrf1-preprint-now-available-online.png
-  link: ''
-  credit: ''
 - date: 2026-06
   title: Dr. Ma receives the Lamport Research Award
-  summary: Dr. Ma is awarded the Dr. Harold and Golden Lamport Research Award from Mount Sinai! This recognition supports the lab’s ongoing work in developing single-cell and spatial multi-omic technologies to study gene regulation in development, aging, and disease.
+  summary: Dr. Ma is awarded the Dr. Harold and Golden Lamport Research Award from
+    Mount Sinai! This recognition supports the lab’s ongoing work in developing
+    single-cell and spatial multi-omic technologies to study gene regulation in
+    development, aging, and disease.
   image: /images/news/2026-06-dr-ma-receives-the-lamport-research-award.jpg
-  link: ''
-  credit: ''
 - date: 2026-05
   title: Welcome Shanell Zou
-  summary: Welcome, Shanell Zou, who joins us as a summer intern. We hope you have a wonderful and productive summer with us!
+  summary: Welcome, Shanell Zou, who joins us as a summer intern. We hope you have
+    a wonderful and productive summer with us!
   image: /images/news/2026-05-welcome-shanell-zou.jpg
-  link: ''
-  credit: ''
 - date: 2026-02
   title: New NIA R21 award
-  summary: Together with Dr. Jun Wang’s group at Stony Brook, we are awarded an R21 by NIA!
+  summary: Together with Dr. Jun Wang’s group at Stony Brook, we are awarded an
+    R21 by NIA!
   image: /images/news/2026-02-new-nia-r21-award.png
-  link: ''
-  credit: ''
 - date: 2026-02
   title: ME-seq aging and Alzheimer’s work
-  summary: Congratulations to Bohan and team for putting together this exciting work! We engineered ME-seq for ultra-high throughput single-cell DNA methylation & RNA co-mapping and identified methylation-mediated priming in aging and Alzheimer’s brain!
+  summary: Congratulations to Bohan and team for putting together this exciting
+    work! We engineered ME-seq for ultra-high throughput single-cell DNA
+    methylation & RNA co-mapping and identified methylation-mediated priming in
+    aging and Alzheimer’s brain!
   image: /images/news/2026-02-me-seq-aging-and-alzheimers-work.png
-  link: ''
-  credit: ''
 - date: 2025-12
   title: Spatial human skin atlas accepted in Nature Genetics
-  summary: The spatial human skin atlas paper mapping multiple anatomic sites led by Dr. Andrew Ji’s group is now accepted in Nature Genetics!
+  summary: The spatial human skin atlas paper mapping multiple anatomic sites led
+    by Dr. Andrew Ji’s group is now accepted in Nature Genetics!
   image: /images/news/2025-12-spatial-human-skin-atlas-accepted-in-nature-genetics.png
-  link: ''
-  credit: ''
 - date: 2025-09
   title: Welcome Dawei Tang
-  summary: Welcome Dawei Tang, who is joining us as a master student to tackle brain functions!
+  summary: Welcome Dawei Tang, who is joining us as a master student to tackle
+    brain functions!
   image: /images/news/2025-09-welcome-dawei-tang.jpg
-  link: ''
-  credit: ''
 - date: 2025-09
   title: Collaborative work published in Nature
-  summary: Our collaborative work with Dr. Miriam Merad’s group is now published in Nature! We show that lung tumours prime accessibility for Nfe2l2 (NRF2) in bone marrow myeloid progenitors, enhancing myelopoiesis while dampening interferon response and promoting immunosuppression.
+  summary: Our collaborative work with Dr. Miriam Merad’s group is now published
+    in Nature! We show that lung tumours prime accessibility for Nfe2l2 (NRF2)
+    in bone marrow myeloid progenitors, enhancing myelopoiesis while dampening
+    interferon response and promoting immunosuppression.
   image: /images/news/2025-09-collaborative-work-published-in-nature.png
-  link: ''
-  credit: ''
 - date: 2025-08
   title: Down syndrome R21 collaboration
-  summary: We are excited to partner with Dr. Elvin Wagenblast’s group on an R21-funded project to address Down syndrome.
+  summary: We are excited to partner with Dr. Elvin Wagenblast’s group on an
+    R21-funded project to address Down syndrome.
   image: /images/news/2026-02-new-nia-r21-award.png
-  link: ''
-  credit: ''
 - date: 2025-07
   title: Congratulations to Dr. Federico Di Tullio
-  summary: We just celebrated a major milestone—our first PhD student, Dr. Federico Di Tullio, has officially graduated from the lab! Congratulations, Fred! Wishing you all the best as you start your next chapter at UCSD.
+  summary: We just celebrated a major milestone—our first PhD student, Dr.
+    Federico Di Tullio, has officially graduated from the lab! Congratulations,
+    Fred! Wishing you all the best as you start your next chapter at UCSD.
   image: /images/news/2025-07-congratulations-to-dr-federico-di-tullio.jpg
-  link: ''
-  credit: ''
 - date: 2025-07
   title: Welcome back Ashley Chan
   summary: Welcome back Ashley Chan as a returning summer intern!
-  image: ''
-  link: ''
-  credit: ''
 - date: 2025-06
   title: Brian Soong receives NCI/NIH F30 award
-  summary: Huge congrats to Brian Soong on his NCI/NIH F30 award. Incredibly proud of you!
-  image: ''
-  link: ''
-  credit: ''
+  summary: Huge congrats to Brian Soong on his NCI/NIH F30 award. Incredibly proud
+    of you!
 - date: 2025-05
   title: HBO1 work published in Cell Stem Cell
-  summary: Our work with Wei-Chien Yuan, Fernando Camargo and my postdoc mentor Jason Buenrostro is published in Cell Stem Cell. We leveraged in vivo CRISPR screen and single-cell ATAC to identify HBO1 as a critical barrier to hepatocyte reprogramming.
+  summary: Our work with Wei-Chien Yuan, Fernando Camargo and my postdoc mentor
+    Jason Buenrostro is published in Cell Stem Cell. We leveraged in vivo CRISPR
+    screen and single-cell ATAC to identify HBO1 as a critical barrier to
+    hepatocyte reprogramming.
   image: /images/news/2025-05-hbo1-work-published-in-cell-stem-cell.jpg
-  link: ''
-  credit: ''
 - date: 2025-05
   title: Congratulations to Jiayi Li
-  summary: Our previous intern Jiayi Li is accepted as a master student in computational biology at Harvard! Congratulations!
-  image: ''
-  link: ''
-  credit: ''
+  summary: Our previous intern Jiayi Li is accepted as a master student in
+    computational biology at Harvard! Congratulations!
 - date: 2025-03
   title: NIH/NCI IMAT funding
   summary: Our lab is now funded by NIH/NCI IMAT program to study AML!
   image: /images/news/2025-03-nih-nci-imat-funding.png
-  link: ''
-  credit: ''
 - date: 2024-12
   title: Selected as 2025 FBI scholars
-  summary: Partnered with Herbert Wu, we are honored to be selected as 2025 FBI scholars!
+  summary: Partnered with Herbert Wu, we are honored to be selected as 2025 FBI
+    scholars!
   image: /images/news/2024-12-selected-as-2025-fbi-scholars.png
-  link: ''
-  credit: ''
 - date: 2024-11
   title: GABAergic neuron disease-modeling work
-  summary: With close collaborator Dr. Nan Yang’s team, we designed a new strategy to induce GABAergic neurons for better disease modeling and leveraged single-cell assays to probe the heterogeneity.
+  summary: With close collaborator Dr. Nan Yang’s team, we designed a new strategy
+    to induce GABAergic neurons for better disease modeling and leveraged
+    single-cell assays to probe the heterogeneity.
   image: /images/news/2024-11-gabaergic-neuron-disease-modeling-work.png
-  link: ''
-  credit: ''
 - date: 2024-11
   title: Footprinting paper accepted in Nature
-  summary: Our footprinting paper is accepted in Nature. We use machine learning to correct Tn5 insertion bias, enabling accurate prediction of TF binding in large-scale scATAC datasets.
+  summary: Our footprinting paper is accepted in Nature. We use machine learning
+    to correct Tn5 insertion bias, enabling accurate prediction of TF binding in
+    large-scale scATAC datasets.
   image: /images/news/2024-11-footprinting-paper-accepted-in-nature.png
-  link: ''
-  credit: bioRxiv
 - date: 2024-11
   title: ATF3 and human skin rejuvenation
-  summary: Together with George Church’s Lab, we found a new TF ATF3 for rejuvenating human skin.
+  summary: Together with George Church’s Lab, we found a new TF ATF3 for
+    rejuvenating human skin.
   image: /images/news/2024-11-atf3-and-human-skin-rejuvenation.png
-  link: ''
-  credit: ''
 - date: 2024-11
   title: Henry & Marilyn Taub Foundation pilot award
-  summary: Teamed with Dr. Elvin Wagenblast, we are awarded by the Henry & Marilyn Taub Foundation for a pilot award.
+  summary: Teamed with Dr. Elvin Wagenblast, we are awarded by the Henry & Marilyn
+    Taub Foundation for a pilot award.
   image: /images/news/2024-11-henry-marilyn-taub-foundation-pilot-award.png
-  link: ''
-  credit: ''
 - date: 2024-06
   title: Welcome summer interns
-  summary: Welcome Isaiah Raghubar, Ashley Chan, Vicky Zheng, and Jiayi Li joining us as interns!
-  image: ''
-  link: ''
-  credit: ''
+  summary: Welcome Isaiah Raghubar, Ashley Chan, Vicky Zheng, and Jiayi Li joining
+    us as interns!
 - date: 2024-06
   title: Congratulations to Hyeonseo Lee
-  summary: Congratulations to our previous intern, Hyeonseo Lee, got accepted into WUSTL as a pre-med student! Super proud of you!
+  summary: Congratulations to our previous intern, Hyeonseo Lee, got accepted into
+    WUSTL as a pre-med student! Super proud of you!
   image: /images/news/2024-06-congratulations-to-hyeonseo-lee.jpg
-  link: ''
-  credit: ''
 - date: 2024-06
   title: Melanoma Research Alliance award
-  summary: We are awarded by Melanoma Research Alliance, together with Anne Bowcock, Elena Ezhkova and Jose Silva’s groups.
+  summary: We are awarded by Melanoma Research Alliance, together with Anne
+    Bowcock, Elena Ezhkova and Jose Silva’s groups.
   image: /images/news/2024-06-melanoma-research-alliance-award.png
-  link: ''
-  credit: ''
 - date: 2024-05
   title: Th17 autoimmunity paper accepted in Nature Immunology
-  summary: Our collaborative paper with Aviv Regev and Vijay K. Kuchroo on Th17-based autoimmunity is now accepted in Nature Immunology!
+  summary: Our collaborative paper with Aviv Regev and Vijay K. Kuchroo on
+    Th17-based autoimmunity is now accepted in Nature Immunology!
   image: /images/news/2024-05-th17-autoimmunity-paper-accepted-in-nature-immunology.png
-  link: ''
-  credit: ''
 - date: 2024-01
   title: Welcome Liying Wang
   summary: Welcome visiting PhD student Liying Wang join our lab!
   image: /images/news/2024-01-welcome-liying-wang.jpg
-  link: ''
-  credit: ''
 - date: 2024-01
   title: Welcome Lillian Chang
   summary: Welcome PhD student Lillian Chang to rotate in our lab.
   image: /images/news/2024-01-welcome-lillian-chang.jpg
-  link: ''
-  credit: ''
 - date: 2023-08
   title: Welcome Arushi Samal
   summary: Welcome PhD student Arushi Samal to rotate in our lab.
   image: /images/news/2023-08-welcome-arushi-samal.jpg
-  link: ''
-  credit: ''
 - date: 2023-08
   title: Welcome Nazifa Salsabeel
   summary: Welcome PhD student Nazifa Salsabeel to rotate in our lab.
   image: /images/news/2023-08-welcome-nazifa-salsabeel.jpg
-  link: ''
-  credit: ''
 - date: 2023-08
   title: Post-COVID epigenetic memory study accepted in Cell
-  summary: Our collaborative paper with Duygu Ucar lab and Steven Z. Josefowicz lab is now accepted in Cell. Transcriptomic and epigenomic analysis of blood reveal sustained changes in hematopoiesis and innate immunity after COVID-19.
+  summary: Our collaborative paper with Duygu Ucar lab and Steven Z. Josefowicz
+    lab is now accepted in Cell. Transcriptomic and epigenomic analysis of blood
+    reveal sustained changes in hematopoiesis and innate immunity after
+    COVID-19.
   image: /images/news/2023-08-post-covid-epigenetic-memory-study-accepted-in-cell.jpg
-  link: ''
-  credit: ''
 - date: 2023-07
   title: Welcome Brian Soong
-  summary: Brian Soong joins our lab as a MD/PhD student! He will be co-mentored by Miriam Merad to investigate the epigenetic clue in the immune environment.
+  summary: Brian Soong joins our lab as a MD/PhD student! He will be co-mentored
+    by Miriam Merad to investigate the epigenetic clue in the immune
+    environment.
   image: /images/news/2023-07-welcome-brian-soong.jpg
-  link: ''
-  credit: ''
 - date: 2023-07
   title: Welcome Hyeonseo Lee
   summary: Hyeonseo Lee joins our lab as a summer intern! Welcome!
   image: /images/news/2024-06-congratulations-to-hyeonseo-lee.jpg
-  link: ''
-  credit: ''
 - date: 2023-07
   title: Sai joins the Tisch Cancer Institute
-  summary: Sai is now a member of the Tisch Cancer Institute (TCI) with the goal of advancing clinical breakthroughs that help prevent and eradicate cancer.
-  image: ''
-  link: ''
-  credit: ''
+  summary: Sai is now a member of the Tisch Cancer Institute (TCI) with the goal
+    of advancing clinical breakthroughs that help prevent and eradicate cancer.
 - date: 2023-07
   title: Welcome Federico Di Tullio
-  summary: Welcome PhD student Federico Di Tullio joining our lab! He will work on liver injury model and be co-mentored with Dr. Tianliang Sun.
+  summary: Welcome PhD student Federico Di Tullio joining our lab! He will work on
+    liver injury model and be co-mentored with Dr. Tianliang Sun.
   image: /images/news/2023-07-welcome-federico-di-tullio.jpg
-  link: ''
-  credit: ''
 - date: 2023-06
   title: Drop-BS paper accepted in Nature Communications
-  summary: Our collaborative paper with Dr. Chang Lu at Virginia Tech is now accepted in Nature Communications. We demonstrate a droplet-based microfluidic technology, Drop-BS, to construct single-cell bisulfite sequencing libraries for DNA methylome profiling. Check out the paper!
+  summary: Our collaborative paper with Dr. Chang Lu at Virginia Tech is now
+    accepted in Nature Communications. We demonstrate a droplet-based
+    microfluidic technology, Drop-BS, to construct single-cell bisulfite
+    sequencing libraries for DNA methylome profiling. Check out the paper!
   image: /images/news/2023-06-drop-bs-paper-accepted-in-nature-communications.png
-  link: ''
-  credit: bioRxiv
 - date: 2023-05
   title: Welcome Zhicong (Leon) Liao
   summary: Welcome PhD student, Zhicong (Leon) Liao, officially joined our lab!
   image: /images/news/2023-05-welcome-zhicong-leon-liao.jpg
-  link: ''
-  credit: ''
 - date: 2023-04
   title: mSWI/SNF perturbation work published in Molecular Cell
-  summary: Our collaborative work with Cigall Kadoch’s group is now published in Molecular Cell! We leveraged CRISPR-Cas9 knockout screens to target mSWI/SNF subunits individually and in select combinations, followed by single-cell RNA-seq and multi-omic assay (perturb-SHARE-seq). These single-cell subunit perturbation signatures mapped across bulk primary human tumor expression profiles both mirror and predict cBAF loss-of-function status in cancer.
+  summary: Our collaborative work with Cigall Kadoch’s group is now published in
+    Molecular Cell! We leveraged CRISPR-Cas9 knockout screens to target mSWI/SNF
+    subunits individually and in select combinations, followed by single-cell
+    RNA-seq and multi-omic assay (perturb-SHARE-seq). These single-cell subunit
+    perturbation signatures mapped across bulk primary human tumor expression
+    profiles both mirror and predict cBAF loss-of-function status in cancer.
   image: /images/news/2023-04-mswi-snf-perturbation-work-published-in-molecular-cell.jpg
-  link: ''
-  credit: Molecular Cell
 - date: 2023-03
   title: PRINT preprint on bioRxiv
-  summary: Our preprint is now on bioRxiv! We present a computational tool, PRINT, to predict chromatin binding proteins (TF & histone) from large-scale scATAC data.
+  summary: Our preprint is now on bioRxiv! We present a computational tool, PRINT,
+    to predict chromatin binding proteins (TF & histone) from large-scale scATAC
+    data.
   image: /images/news/2024-11-footprinting-paper-accepted-in-nature.png
-  link: ''
-  credit: bioRxiv
 - date: 2023-03
   title: Spatial epigenome–transcriptome work published in Nature
-  summary: Our collaborative paper with Dr. Rong Fan at Yale University is now published in Nature. We present two technologies for spatially resolved, genome-wide, joint profiling of the epigenome and transcriptome by co-sequencing chromatin accessibility/histone modification and gene expression on the same tissue section at near-single-cell resolution.
+  summary: Our collaborative paper with Dr. Rong Fan at Yale University is now
+    published in Nature. We present two technologies for spatially resolved,
+    genome-wide, joint profiling of the epigenome and transcriptome by
+    co-sequencing chromatin accessibility/histone modification and gene
+    expression on the same tissue section at near-single-cell resolution.
   image: /images/news/2023-03-spatial-epigenometranscriptome-work-published-in-nature.png
-  link: ''
-  credit: Nature
 - date: 2023-03
   title: Leon Liao rotates in the lab
   summary: Welcome PhD student, Zhicong (Leon) Liao, rotating in our lab!
   image: /images/news/2023-05-welcome-zhicong-leon-liao.jpg
-  link: ''
-  credit: ''
 - date: 2023-02
   title: Welcome Dr. Feifei Yuan
   summary: Dr. Feifei Yuan joined our lab as a new postdoctoral fellow. Welcome!
   image: /images/news/2023-02-welcome-dr-feifei-yuan.jpg
-  link: ''
-  credit: ''
 - date: 2023-01
   title: TF atlas collaboration published in Cell
-  summary: Our collaboration with Feng Zhang’s group at Broad Institute is now published in Cell. We massively screened every single TF in hESC differentiation by combining SHARE-seq with genetic perturbation and surprisingly found 27% of TF genes could function as master regulators.
+  summary: Our collaboration with Feng Zhang’s group at Broad Institute is now
+    published in Cell. We massively screened every single TF in hESC
+    differentiation by combining SHARE-seq with genetic perturbation and
+    surprisingly found 27% of TF genes could function as master regulators.
   image: /images/news/2023-01-tf-atlas-collaboration-published-in-cell.png
-  link: ''
-  credit: Cell
 - date: 2022-11
   title: Dr. Ma becomes an Affiliate Member of NYGC
-  summary: Dr. Ma is selected as an Affiliate Member of the New York Genome Center (NYGC).
+  summary: Dr. Ma is selected as an Affiliate Member of the New York Genome Center
+    (NYGC).
   image: /images/news/2022-11-dr-ma-becomes-an-affiliate-member-of-nygc.png
-  link: ''
-  credit: ''
 - date: 2022-10
   title: Welcome Nima Assad
   summary: Welcome Nima Assad joining the lab as the first MD/PhD student!
   image: /images/news/2022-10-welcome-nima-assad.png
-  link: ''
-  credit: ''
 - date: 2022-09
   title: Welcome Dr. Bohan Zhu
   summary: Welcome our first postdoctoral fellow Dr. Bohan Zhu to the lab!
   image: /images/news/2022-09-welcome-dr-bohan-zhu.jpg
-  link: ''
-  credit: ''
 - date: 2022-08
   title: Ma Lab officially opens
-  summary: Ma Lab officially opens in the Department of Genetics and Genomic Sciences at Icahn School of Medicine at Mount Sinai! Join us and work on cool science in the heart of Manhattan!
+  summary: Ma Lab officially opens in the Department of Genetics and Genomic
+    Sciences at Icahn School of Medicine at Mount Sinai! Join us and work on
+    cool science in the heart of Manhattan!
   image: /images/news/2022-08-ma-lab-officially-opens.png
-  link: ''
-  credit: ''
 - date: 2022-08
   title: Neocortex regulatory work published in Nature Neuroscience
-  summary: Our collaborative work is published in Nature Neuroscience. We aim to investigate the regulatory strategies in both early post-mitotic and later stages of neurons from mouse and marmoset neocortex.
+  summary: Our collaborative work is published in Nature Neuroscience. We aim to
+    investigate the regulatory strategies in both early post-mitotic and later
+    stages of neurons from mouse and marmoset neocortex.
   image: /images/news/2022-08-neocortex-regulatory-work-published-in-nature-neuroscience.png
-  link: ''
-  credit: Nature Neuroscience
 - date: 2022-06
   title: Spatial chromatin accessibility work accepted in Nature
-  summary: We seek to incorporate spatial information with chromatin accessibility for mapping various tissues! Now accepted in Nature. A collaboration with Dr. Rong Fan’s group at Yale.
+  summary: We seek to incorporate spatial information with chromatin accessibility
+    for mapping various tissues! Now accepted in Nature. A collaboration with
+    Dr. Rong Fan’s group at Yale.
   image: /images/news/2022-06-spatial-chromatin-accessibility-work-accepted-in-nature.png
-  link: ''
-  credit: bioRxiv
 - date: 2022-06
   title: FigR accepted in Cell Genomics
-  summary: FigR—a very well optimized computational workflow to pair scATAC to scRNA data and infer gene regulation networks for stimulated PBMCs—is now accepted in Cell Genomics. Led by Dr. Vinay Kartha and Dr. Fabiana Duarte.
+  summary: FigR—a very well optimized computational workflow to pair scATAC to
+    scRNA data and infer gene regulation networks for stimulated PBMCs—is now
+    accepted in Cell Genomics. Led by Dr. Vinay Kartha and Dr. Fabiana Duarte.
   image: /images/news/2022-06-figr-accepted-in-cell-genomics.png
-  link: ''
-  credit: Cell Genomics
 - date: 2022-02
   title: MOWChIP-seq and BRCA1 mutation
-  summary: We use a microfluidic approach, MOWChIP-seq, to investigate the cell-type-specific impact of BRCA1 mutation on human breast tissue.
+  summary: We use a microfluidic approach, MOWChIP-seq, to investigate the
+    cell-type-specific impact of BRCA1 mutation on human breast tissue.
   image: /images/news/2022-02-mowchip-seq-and-brca1-mutation.png
-  link: ''
-  credit: NAR
 - date: 2021-09
   title: SMARCA4 work in Cancer Discovery
-  summary: Our work on investigating the loss of Smarca4 that results in highly advanced dedifferentiated tumors is now in Cancer Discovery!
-  image: ''
-  link: ''
-  credit: AACR
+  summary: Our work on investigating the loss of Smarca4 that results in highly
+    advanced dedifferentiated tumors is now in Cancer Discovery!
 - date: 2021-06
   title: GATA2 deficiency study
-  summary: Gata2b-deficient zebrafish recapitulate human GATA2 deficiency syndrome-associated hematopoietic phenotypes. A collaboration with Dr. Len Zon’s group at HMS.
-  image: ''
-  link: ''
-  credit: ASH
+  summary: Gata2b-deficient zebrafish recapitulate human GATA2 deficiency
+    syndrome-associated hematopoietic phenotypes. A collaboration with Dr. Len
+    Zon’s group at HMS.
 - date: 2021-06
   title: Optimized sci-ATAC protocol available
-  summary: Our optimized sci-ATAC protocol is now available in STAR Protocols. A collaboration with Isabella Del Priore and Lindsay LaFave in Tyler Jacks’ Lab at MIT.
-  image: ''
-  link: ''
-  credit: Cell Press
+  summary: Our optimized sci-ATAC protocol is now available in STAR Protocols. A
+    collaboration with Isabella Del Priore and Lindsay LaFave in Tyler Jacks’
+    Lab at MIT.
 - date: 2021-04
   title: Chronic stress and hair loss study published in Nature
-  summary: Our work to understand chronic stress that leads to hair loss is in Nature now! A collaboration with Dr. Ya-Chieh Hsu’s group at Harvard, led by Dr. Sekyu Choi.
-  image: ''
-  link: ''
-  credit: Nature
+  summary: Our work to understand chronic stress that leads to hair loss is in
+    Nature now! A collaboration with Dr. Ya-Chieh Hsu’s group at Harvard, led by
+    Dr. Sekyu Choi.
 - date: 2021-02
   title: ELF3 superenhancer study published in PNAS
-  summary: An interesting story about superenhancer-induced ELF3 activation in trophoblasts is now in PNAS. A collaboration with Dr. Jack L. Strominger’s group at Harvard, led by Dr. Qin Li.
-  image: ''
-  link: ''
-  credit: PNAS
+  summary: An interesting story about superenhancer-induced ELF3 activation in
+    trophoblasts is now in PNAS. A collaboration with Dr. Jack L. Strominger’s
+    group at Harvard, led by Dr. Qin Li.
