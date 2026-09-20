@@ -172,7 +172,6 @@ nav a:hover { color: var(--accent); }
 .hero.hero-slideshow .hero-inner {
   position: relative;
   z-index: 2;
-  width: 100%;
   padding: 80px 0;
 }
 
@@ -189,7 +188,6 @@ nav a:hover { color: var(--accent); }
   font-size: clamp(2.4rem, 4.5vw, 4rem);
   line-height: 1.04;
   letter-spacing: -0.05em;
-  max-width: none;
   white-space: nowrap;
   margin: 18px 0 28px;
 }
