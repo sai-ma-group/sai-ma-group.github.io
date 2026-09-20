@@ -17,6 +17,10 @@ content:
       - name: hero_text
         label: Intro text
         type: text
+      - name: hero_slides
+        label: Homepage Slideshow
+        type: image
+        list: true
       - name: hero_image
         label: Image width (pixels)
         type: image
@@ -196,8 +200,4 @@ content:
       - name: type
         label: Type
         type: string
-        
-- name: hero_slides
-  label: Homepage Slideshow
-  type: image
-        list: true
+
