@@ -604,3 +604,163 @@ footer {
     align-items: flex-start;
   }
 }
+
+/* =========================
+   TEAM PAGE
+   ========================= */
+
+.team-section-heading {
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -0.04em;
+  margin: 10px 0 36px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 28px;
+}
+
+.team-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.team-card h3 {
+  font-size: 1.25rem;
+  margin: 0 0 4px;
+}
+
+.team-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.soft-section {
+  background: var(--soft-background);
+}
+
+.team-gallery {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 18px;
+}
+
+.team-gallery figure {
+  margin: 0;
+}
+
+.team-gallery figure:nth-child(1) {
+  grid-column: span 7;
+}
+
+.team-gallery figure:nth-child(2) {
+  grid-column: span 5;
+}
+
+.team-gallery figure:nth-child(n+3) {
+  grid-column: span 4;
+}
+
+.team-gallery img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.team-gallery figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid var(--line);
+}
+
+.alumni-card {
+  display: grid;
+  grid-template-columns: 82px 1fr;
+  gap: 18px;
+  align-items: center;
+  padding: 22px 24px 22px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.alumni-card:nth-child(odd) {
+  border-right: 1px solid var(--line);
+  padding-right: 24px;
+}
+
+.alumni-card:nth-child(even) {
+  padding-left: 24px;
+}
+
+.alumni-card img {
+  width: 82px;
+  height: 82px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.alumni-card h3 {
+  margin: 0 0 3px;
+  font-size: 1.05rem;
+}
+
+.alumni-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.alumni-next {
+  margin-top: 4px !important;
+  font-size: 0.86rem !important;
+}
+
+@media (max-width: 800px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .team-gallery figure:nth-child(n) {
+    grid-column: auto;
+  }
+
+  .team-gallery img {
+    height: auto;
+  }
+
+  .alumni-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .alumni-card:nth-child(odd) {
+    border-right: 0;
+    padding-right: 0;
+  }
+
+  .alumni-card:nth-child(even) {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
