@@ -26,22 +26,61 @@ content:
     type: file
     path: _data/team.yml
     format: yaml
-    list: true
     operations:
       delete: false
+
     fields:
-      - name: name
-        label: Name
-        type: string
-      - name: role
-        label: Position
-        type: string
-      - name: photo
-        label: Photo
-        type: image
-      - name: bio
-        label: Short bio
-        type: text
+
+      - name: current
+        label: Current Members
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+
+          - name: role
+            label: Role
+            type: string
+
+          - name: photo
+            label: Photo
+            type: image
+
+      - name: alumni
+        label: Previous Trainees
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+
+          - name: role
+            label: Role
+            type: string
+
+          - name: next
+            label: Next Position
+            type: string
+
+          - name: photo
+            label: Photo
+            type: image
+
+      - name: gallery
+        label: Lab Life & Milestones
+        type: object
+        list: true
+        fields:
+          - name: image
+            label: Photo
+            type: image
+
+          - name: caption
+            label: Caption
+            type: string
 
   - name: news
     label: News
