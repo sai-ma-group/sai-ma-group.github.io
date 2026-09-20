@@ -1,0 +1,81 @@
+---
+layout: default
+title: Resources
+---
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Open Science</p>
+    <h1>Software & Resources</h1>
+
+    <p class="hero-text">
+      Protocols, computational tools, analysis pipelines, and interactive
+      resources developed by the Sai Ma Lab and collaborators.
+    </p>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+
+    {% assign categories = site.data.resources | map: "category" | uniq %}
+
+    {% for category in categories %}
+
+      <div class="resource-category">
+
+        <p class="section-label">
+          {{ category }}
+        </p>
+
+        <div class="resource-grid">
+
+          {% assign items = site.data.resources | where: "category", category %}
+
+          {% for item in items %}
+
+            {% if item.url and item.url != "" %}
+              <a
+                href="{{ item.url }}"
+                target="_blank"
+                class="resource-card"
+              >
+            {% else %}
+              <div class="resource-card">
+            {% endif %}
+
+                <div class="resource-type">
+                  {{ item.type }}
+                </div>
+
+                <h2>
+                  {{ item.title }}
+                </h2>
+
+                <p>
+                  {{ item.description }}
+                </p>
+
+                {% if item.url and item.url != "" %}
+                  <span class="resource-link">
+                    Open resource →
+                  </span>
+                {% endif %}
+
+            {% if item.url and item.url != "" %}
+              </a>
+            {% else %}
+              </div>
+            {% endif %}
+
+          {% endfor %}
+
+        </div>
+
+      </div>
+
+    {% endfor %}
+
+  </div>
+</section>
