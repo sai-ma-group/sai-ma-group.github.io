@@ -342,6 +342,15 @@ footer {
     flex-direction: column;
     gap: 20px;
   }
+
+  .news-card {
+    grid-template-columns: 1fr;
+  }
+
+  .news-card-image img {
+    max-width: 100%;
+    max-height: none;
+  }
 }
 /* PUBLICATIONS */
 
