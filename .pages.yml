@@ -128,3 +128,32 @@ content:
       - name: contact
         label: Contact
         type: text
+        
+  - name: resources
+    label: Resources
+    type: file
+    path: _data/resources.yml
+    format: yaml
+    list: true
+    operations:
+      delete: true
+    fields:
+      - name: category
+        label: Category
+        type: string
+
+      - name: title
+        label: Resource name
+        type: string
+
+      - name: description
+        label: Description
+        type: text
+
+      - name: url
+        label: Link
+        type: string
+
+      - name: type
+        label: Type
+        type: string
