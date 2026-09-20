@@ -604,3 +604,132 @@ footer {
     align-items: flex-start;
   }
 }
+/* =========================
+   SAI MA PAGE
+   ========================= */
+
+.pi-hero {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 70px;
+  align-items: start;
+}
+
+.pi-title {
+  font-size: 1.2rem;
+  color: var(--muted);
+  max-width: 760px;
+  margin: 0 0 28px;
+}
+
+.pi-bio {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 760px;
+}
+
+.pi-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.pi-photo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pi-photo img {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  border-radius: 14px;
+  display: block;
+}
+
+
+/* MAIN CONTENT */
+
+.pi-content {
+  max-width: 950px;
+}
+
+.pi-section {
+  margin-bottom: 75px;
+}
+
+.pi-section:last-child {
+  margin-bottom: 0;
+}
+
+.pi-section h2 {
+  font-size: 2rem;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin: 8px 0 22px;
+}
+
+.pi-section-text {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 800px;
+}
+
+
+/* EXPERIENCE + EDUCATION */
+
+.timeline {
+  border-top: 1px solid var(--line);
+}
+
+.timeline-item {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.timeline-item h3 {
+  margin: 0 0 5px;
+  font-size: 1.12rem;
+  line-height: 1.35;
+}
+
+.timeline-item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+  .pi-hero {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .pi-photo {
+    justify-content: flex-start;
+  }
+
+  .pi-photo img {
+    max-width: 280px;
+  }
+
+  .pi-section {
+    margin-bottom: 55px;
+  }
+
+  .pi-section h2 {
+    font-size: 1.7rem;
+  }
+
+  .timeline-item {
+    padding: 18px 0;
+  }
+}
