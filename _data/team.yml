@@ -11,12 +11,6 @@ current:
   - name: Brian Soong
     role: MD/PhD Student
     photo: /images/team/current/brian-soong.jpg
-  - name: Shanell Zou
-    role: Summer Intern
-    photo: /images/team/current/shanell-zou.jpg
-  - name: Bohan Zhu, PhD
-    role: Postdoctoral Fellow
-    photo: /images/team/alumni/bohan-zhu.jpg
 alumni:
   - name: Feifei Yuan
     role: Postdoc, 2023–2024
@@ -66,6 +60,10 @@ alumni:
     role: Postdoctoral Fellow
     next: Retro Biosciences, Scientist
     photo: /images/team/alumni/bohan-zhu.jpg
+  - name: Shanell Zou
+    role: Summer Intern
+    next: USC, undergraduate
+    photo: /images/team/alumni/shanell-zou.jpg
 gallery:
   - image: /images/team/gallery/federico-graduation.jpg
     caption: Celebrating Federico’s PhD graduation, 2025
