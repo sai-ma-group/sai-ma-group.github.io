@@ -9,7 +9,7 @@ title: Resources
     <h1>Software & Resources</h1>
 
     <p class="hero-text">
-      Protocols, analysis pipelines, computational tools, and interactive resources
+      Protocols, computational tools, pipelines, and interactive resources
       developed by the Sai Ma Lab and collaborators.
     </p>
   </div>
@@ -17,52 +17,53 @@ title: Resources
 
 
 <section class="section">
-  <div class="container">
+  <div class="container resource-list">
 
     {% assign categories = site.data.resources | map: "category" | uniq %}
 
     {% for category in categories %}
 
-      <div class="resource-category">
+      <div class="resource-section">
 
-        <h2 class="resource-category-title">
+        <div class="resource-section-title">
           {{ category }}
-        </h2>
-
-        <div class="resource-list">
-
-          {% assign items = site.data.resources | where: "category", category %}
-
-          {% for item in items %}
-
-            {% if item.url and item.url != "" %}
-              <a
-                href="{{ item.url }}"
-                target="_blank"
-                class="resource-row"
-              >
-            {% else %}
-              <div class="resource-row">
-            {% endif %}
-
-                <div>
-                  <h3>{{ item.title }}</h3>
-                  <p>{{ item.description }}</p>
-                </div>
-
-                {% if item.url and item.url != "" %}
-                  <div class="resource-arrow">→</div>
-                {% endif %}
-
-            {% if item.url and item.url != "" %}
-              </a>
-            {% else %}
-              </div>
-            {% endif %}
-
-          {% endfor %}
-
         </div>
+
+        {% assign items = site.data.resources | where: "category", category %}
+
+        {% for item in items %}
+
+          {% if item.url and item.url != "" %}
+            <a
+              href="{{ item.url }}"
+              target="_blank"
+              class="resource-item"
+            >
+          {% else %}
+            <div class="resource-item">
+          {% endif %}
+
+              <div class="resource-item-content">
+
+                <h3>{{ item.title }}</h3>
+
+                <p>
+                  {{ item.description }}
+                </p>
+
+              </div>
+
+              {% if item.url and item.url != "" %}
+                <div class="resource-item-arrow">→</div>
+              {% endif %}
+
+          {% if item.url and item.url != "" %}
+            </a>
+          {% else %}
+            </div>
+          {% endif %}
+
+        {% endfor %}
 
       </div>
 
