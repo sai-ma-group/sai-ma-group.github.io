@@ -1,59 +1,50 @@
-- category: "ME-seq"
-  title: "ME-seq step-by-step protocol"
-  description: "Step-by-step protocol for ME-seq."
-  url: "https://www.protocols.io/"
-  type: "Protocol"
-
-- category: "ME-seq"
-  title: "ME-seq alignment pipeline"
-  description: "Analysis pipeline for processing ME-seq data."
-  url: "https://github.com/sai-ma-group"
-  type: "Software"
-
-- category: "SHARE-seq"
-  title: "SHARE-seq V1 step-by-step protocol"
-  description: "Step-by-step protocol for SHARE-seq."
-  url: ""
-  type: "Protocol"
-
-- category: "SHARE-seq"
-  title: "SHARE-seq alignment pipeline v2.0"
-  description: "Updated SHARE-seq alignment and processing pipeline."
-  url: ""
-  type: "Software"
-
-- category: "SHARE-seq"
-  title: "SHARE-seq alignment pipeline v1.0"
-  description: "Original SHARE-seq alignment pipeline."
-  url: ""
-  type: "Software"
-
-- category: "Computational Tools"
-  title: "FigR"
-  description: "Functional Inference of Gene Regulation from paired single-cell chromatin accessibility and gene-expression data."
-  url: ""
-  type: "Software"
-
-- category: "Computational Tools"
-  title: "fastDORC"
-  description: "Computational framework for identifying peak–gene associations."
-  url: ""
-  type: "Software"
-
-- category: "Interactive Data"
-  title: "scATAC lung tumor atlas"
-  description: "Interactive exploration of single-cell chromatin accessibility in lung tumor progression."
-  url: ""
-  type: "Interactive"
-
-- category: "Interactive Data"
-  title: "SHARE-seq skin network"
-  description: "Interactive visualization of regulatory relationships identified using SHARE-seq."
-  url: ""
-  type: "Interactive"
-
-- category: "Interactive Data"
-  title: "PBMC stimulation data exploration"
-  description: "Interactive exploration of PBMC stimulation data."
-  url: ""
-  type: "Interactive"
+- category: ME-seq
+  title: ME-seq step-by-step protocol
+  description: Step-by-step protocol for ME-seq.
+  url: https://www.protocols.io/
+  type: Protocol
+- category: ME-seq
+  title: ME-seq alignment pipeline
+  description: Analysis pipeline for processing ME-seq data.
+  url: https://github.com/sai-ma-group
+  type: Software
+- category: SHARE-seq
+  title: SHARE-seq V1 step-by-step protocol
+  description: Step-by-step protocol for SHARE-seq.
+  type: Protocol
+- category: SHARE-seq
+  title: SHARE-seq alignment pipeline v2.0
+  description: Updated SHARE-seq alignment and processing pipeline.
+  type: Software
+- category: SHARE-seq
+  title: SHARE-seq alignment pipeline v1.0
+  description: Original SHARE-seq alignment pipeline.
+  type: Software
+- category: Computational Tools
+  title: FigR
+  description: Functional Inference of Gene Regulation from paired single-cell
+    chromatin accessibility and gene-expression data.
+  type: Software
+- category: Computational Tools
+  title: fastDORC
+  description: Computational framework for identifying peak–gene associations.
+  type: Software
+- category: Interactive Data
+  title: scATAC lung tumor atlas
+  description: Interactive exploration of single-cell chromatin accessibility in
+    lung tumor progression.
+  type: Interactive
+- category: Interactive Data
+  title: SHARE-seq skin network
+  description: Interactive visualization of regulatory relationships identified
+    using SHARE-seq.
+  type: Interactive
+- category: Interactive Data
+  title: PBMC stimulation data exploration
+  description: Interactive exploration of PBMC stimulation data.
+  type: Interactive
+- category: Interactive Data
+  title: Human fetal liver hematopoiesis atlas
+  description: Interactive exploration of HSPC data.
+  url: https://malabsinai-nas.synology.me/fetal_liver/
+  type: Interactive Data
