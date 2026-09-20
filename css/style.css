@@ -455,3 +455,23 @@ footer {
   }
 }
 
+.opportunity-list {
+  max-width: 900px;
+}
+
+.opportunity {
+  padding: 36px 0;
+  border-top: 1px solid var(--line);
+}
+
+.opportunity h2 {
+  margin: 0 0 12px;
+  font-size: 1.6rem;
+}
+
+.opportunity p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+  max-width: 760px;
+}
