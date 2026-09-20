@@ -97,3 +97,34 @@ content:
       - name: featured
         label: Featured publication
         type: boolean
+  - name: join
+    label: Join Us
+    type: file
+    path: _data/join.yml
+    format: yaml
+    operations:
+      delete: false
+    fields:
+      - name: heading
+        label: Heading
+        type: string
+
+      - name: intro
+        label: Introduction
+        type: text
+
+      - name: postdocs
+        label: Postdoctoral Fellows
+        type: text
+
+      - name: students
+        label: Graduate Students
+        type: text
+
+      - name: other_trainees
+        label: Other Trainees
+        type: text
+
+      - name: contact
+        label: Contact
+        type: text
