@@ -5,7 +5,18 @@ title: Home
 
 {% assign home = site.data.home %}
 
-<section class="hero">
+<section class="hero hero-slideshow">
+
+  <div class="hero-backgrounds">
+    {% for image in home.hero_slides %}
+      <div
+        class="hero-slide {% if forloop.first %}active{% endif %}"
+        style="background-image: url('{{ image }}');"
+      ></div>
+    {% endfor %}
+  </div>
+
+  <div class="hero-overlay"></div>
 
   <div class="container hero-inner">
 
@@ -22,26 +33,23 @@ title: Home
     </p>
 
     <div class="hero-buttons">
-      <a href="https://github.com/sai-ma-group"
-       class="button primary"
-       target="_blank">
-       Explore our research
-    </a>
 
-      <a href="/join.html" class="button secondary">
+      <a
+        href="https://github.com/sai-ma-group"
+        class="button primary"
+        target="_blank"
+      >
+        Explore our research
+      </a>
+
+      <a
+        href="/join.html"
+        class="button secondary"
+      >
         Join the lab
       </a>
-    </div>
 
-    {% if home.hero_image and home.hero_image != "" %}
-      <div class="hero-visual">
-        <img
-          src="{{ home.hero_image }}"
-          alt="Sai Ma Lab research"
-          style="width: {{ home.hero_image_width | default: 220 }}px; max-width: 100%; height: auto;"
-        >
-      </div>
-    {% endif %}
+    </div>
 
   </div>
 
@@ -174,3 +182,25 @@ title: Home
   </div>
 
 </section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const slides = document.querySelectorAll(".hero-slide");
+
+  if (slides.length <= 1) return;
+
+  let current = 0;
+
+  setInterval(function () {
+
+    slides[current].classList.remove("active");
+
+    current = (current + 1) % slides.length;
+
+    slides[current].classList.add("active");
+
+  }, 5000);
+
+});
+</script>
