@@ -30,31 +30,28 @@ title: Publications
 
       {% for pub in featured_pubs %}
 
-      <article class="featured-pub">
+      {% if pub.url and pub.url != "" %}
+  <a href="{{ pub.url }}" target="_blank" class="publication-link-wrapper">
+{% endif %}
 
-        <div class="featured-year">
-          {{ pub.year }}
-        </div>
+<article class="featured-pub">
 
-        <h3>
-          {% if pub.url and pub.url != "" %}
-            <a href="{{ pub.url }}" target="_blank">
-              {{ pub.title }}
-            </a>
-          {% else %}
-            {{ pub.title }}
-          {% endif %}
-        </h3>
+  <h3>{{ pub.title }}</h3>
 
-        <p class="publication-authors">
-          {{ pub.authors }}
-        </p>
+  <p class="publication-authors">
+    {{ pub.authors }}
+  </p>
 
-        <p class="publication-journal">
-          {{ pub.journal }} <span class="publication-year-inline">({{ pub.year }})</span>
-        </p>
+  <p class="publication-meta">
+    <span class="publication-journal">{{ pub.journal }}</span>
+    <span class="publication-year-inline">({{ pub.year }})</span>
+  </p>
 
-      </article>
+</article>
+
+{% if pub.url and pub.url != "" %}
+  </a>
+{% endif %}
 
       {% endfor %}
 
