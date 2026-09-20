@@ -475,3 +475,12 @@ footer {
   font-size: 1.05rem;
   max-width: 760px;
 }
+
+.news-card-image img {
+  width: 100%;
+  max-width: 320px;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
