@@ -537,3 +537,65 @@ footer {
   margin: 8px 0 16px;
   font-size: 1.8rem;
 }
+
+/* RESOURCES */
+
+.resource-category {
+  margin-bottom: 80px;
+}
+
+.resource-category:last-child {
+  margin-bottom: 0;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-top: 22px;
+}
+
+.resource-card {
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 28px;
+  background: white;
+  transition: 0.2s ease;
+}
+
+a.resource-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.resource-type {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.resource-card h2 {
+  font-size: 1.4rem;
+  line-height: 1.25;
+  margin: 0 0 12px;
+}
+
+.resource-card p {
+  color: var(--muted);
+  margin: 0 0 20px;
+}
+
+.resource-link {
+  font-weight: 650;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 800px) {
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
