@@ -1,0 +1,45 @@
+---
+layout: default
+title: Join Us
+---
+
+{% assign join = site.data.join %}
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Join Us</p>
+
+    <h1>{{ join.heading }}</h1>
+
+    <p class="hero-text">
+      {{ join.intro }}
+    </p>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container opportunity-list">
+
+    <article class="opportunity">
+      <h2>Postdoctoral Fellows</h2>
+      <p>{{ join.postdocs }}</p>
+    </article>
+
+    <article class="opportunity">
+      <h2>Graduate Students</h2>
+      <p>{{ join.students }}</p>
+    </article>
+
+    <article class="opportunity">
+      <h2>Other Trainees</h2>
+      <p>{{ join.other_trainees }}</p>
+    </article>
+
+    <article class="opportunity">
+      <h2>Contact</h2>
+      <p>{{ join.contact }}</p>
+    </article>
+
+  </div>
+</section>
