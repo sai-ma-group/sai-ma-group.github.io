@@ -1,0 +1,57 @@
+name: "Sai Ma, PhD"
+
+title: >
+  Assistant Professor, Department of Genetics and Genomic Sciences,
+  Icahn School of Medicine at Mount Sinai
+
+photo: "/images/sai-ma.jpg"
+
+bio: >
+  Dr. Sai Ma is an Assistant Professor in the Department of Genetics and
+  Genomic Sciences at the Icahn School of Medicine at Mount Sinai. He received
+  his postdoctoral training with Aviv Regev and Jason Buenrostro at the Broad
+  Institute and Harvard Department of Stem Cell and Regenerative Biology.
+
+  His research program develops single-cell and spatial multi-omic technologies
+  to understand gene regulation across development, aging, and disease.
+
+research_interests: >
+  Single-cell and spatial genomics, epigenetics, chromatin regulation,
+  multimodal technology development, cell-state transitions, development,
+  aging, and disease.
+
+professional_experience:
+  - position: "Assistant Professor"
+    institution: "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai"
+
+  - position: "Member"
+    institution: "Black Family Stem Cell Institute"
+
+  - position: "Member"
+    institution: "Institute for Regenerative Medicine"
+
+  - position: "Member"
+    institution: "Tisch Cancer Institute"
+
+  - position: "Member"
+    institution: "Skin Biology and Diseases Resource-based Center"
+
+  - position: "Affiliate Member"
+    institution: "New York Genome Center"
+
+  - position: "Postdoctoral Fellow"
+    institution: "Broad Institute of MIT and Harvard"
+
+  - position: "Postdoctoral Fellow"
+    institution: "Department of Stem Cell and Regenerative Biology, Harvard University"
+
+education:
+  - degree: "PhD, Biomedical Engineering"
+    institution: "Virginia Tech & Wake Forest University"
+
+  - degree: "BS, Chemistry"
+    institution: "Chu Kochen Honors College, Zhejiang University"
+
+email: "sai.ma2@mssm.edu"
+scholar: ""
+cv: ""
