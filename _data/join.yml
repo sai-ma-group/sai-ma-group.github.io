@@ -1,22 +1,64 @@
 heading: "Join the Sai Ma Lab"
 
 intro: >
-  We are always interested in hearing from motivated scientists who want
-  to develop or apply single-cell and spatial genomics technologies.
+  Multiple postdoctoral and student positions are available in the Ma Lab
+  in the Department of Genetics and Genomic Sciences at the Icahn School
+  of Medicine at Mount Sinai in New York City. We are looking for curious,
+  motivated scientists interested in single-cell and spatial genomics,
+  epigenetics, gene regulation, and disease biology.
 
-postdocs: >
-  We are recruiting postdoctoral fellows with interests in single-cell genomics,
-  epigenetics, computational biology, technology development, hematopoiesis,
-  aging, and disease.
+prospective_students: >
+  Prospective graduate students interested in rotating in the lab are
+  encouraged to contact Dr. Sai Ma directly.
 
-students: >
-  Graduate students interested in rotating with the lab are encouraged to
-  contact us.
+what_we_do: >
+  Our lab develops experimental and computational technologies to investigate
+  epigenetic mechanisms of gene regulation at single-cell resolution across
+  dynamic cell-state transitions. We are interested in understanding how
+  regulatory programs shape normal development and how these programs are
+  perturbed in aging and disease.
 
-other_trainees: >
-  We welcome inquiries from research assistants, interns, visiting students,
-  and other trainees when opportunities are available.
+  We develop scalable single-cell and spatial multi-omic technologies to
+  jointly measure DNA methylation, chromatin accessibility, gene expression,
+  and genome organization. We also build computational methods to integrate
+  these measurements and reconstruct regulatory mechanisms underlying cell
+  fate decisions.
 
-contact: >
-  Please email Dr. Ma at sai.ma2@mssm.edu with your CV and a 
-  brief description of your research interests.
+  Current research directions include technology development, gene regulation,
+  cell-fate mapping, hematopoiesis, aging, neurodegeneration, and cancer.
+
+qualifications: >
+  Postdoctoral candidates should hold a PhD or MD/PhD in cell biology,
+  molecular biology, genetics, genomics, bioengineering, biomedical engineering,
+  computational biology, or a related field.
+
+  Candidates should be able to work independently and communicate effectively
+  with collaborators from diverse experimental and computational backgrounds.
+  Prior experience with next-generation sequencing, single-cell genomics,
+  molecular biology, or programming is helpful but not required.
+
+  Applicants with BA/BS or MA/MS degrees may also be considered for Research
+  Associate positions.
+
+instructions: >
+  Interested applicants should email Dr. Sai Ma with:
+
+  1. A brief summary of research interests
+  2. A CV including a complete publication list
+  3. Names and contact information for three references
+
+life_at_sinai: >
+  Mount Sinai provides a highly collaborative research environment with
+  extensive shared facilities and strong programs in genomics, stem cell
+  biology, cancer, neuroscience, and computational biology.
+
+  Our lab aims to provide a supportive and collaborative training environment,
+  with opportunities to develop both experimental and computational expertise.
+  Trainees are encouraged to present their work at national and international
+  conferences and to pursue fellowship opportunities.
+
+  Postdoctoral fellows receive competitive salary and benefits, and eligible
+  incoming fellows may apply for Mount Sinai housing within walking distance
+  of the medical center.
+
+email: "sai.ma2@mssm.edu"
