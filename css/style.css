@@ -478,8 +478,8 @@ footer {
 
 .news-card-image img {
   width: 100%;
-  max-width: 320px;
-  max-height: 220px;
+  max-width: 220px;
+  max-height: 160px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
