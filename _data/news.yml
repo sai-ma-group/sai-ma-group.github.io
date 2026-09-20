@@ -1,9 +1,329 @@
-- date: "2026-09-10"
-  title: "New paper accepted in Nature"
-  summary: "A collaborative study from the lab has been accepted in Nature."
-  image: ""
+# Migrated from https://saimalab.com/ on 2026-09-19
+# Image URLs currently point to the original WordPress media library.
+# For long-term migration, upload each image into /images/news and replace image: values.
 
-- date: "2026-08-18"
-  title: "UHRF1 study accepted"
-  summary: "Our work on UHRF1, DNA methylation and chromatin organization has been accepted in Nature Communications."
-  image: ""
+- date: 2026-07
+  title: UHRF1 preprint now available online
+  summary: Our new preprint, “Uhrf1 loss disrupts Ctcf-associated chromatin organization during early mouse embryogenesis,” is now available online. This study shows how UHRF1 coordinates DNA methylation, chromatin architecture, and lineage stabilization during early embryonic development leveraging ME-seq.
+  image: ''
+  image_source: https://saimalab.com/wp-content/uploads/2026/07/graphic-abstract.tif
+  link: ''
+  credit: ''
+- date: 2026-06
+  title: Dr. Ma receives the Lamport Research Award
+  summary: Dr. Ma is awarded the Dr. Harold and Golden Lamport Research Award from Mount Sinai! This recognition supports the lab’s ongoing work in developing single-cell and spatial multi-omic technologies to study gene regulation in development, aging, and disease.
+  image: https://saimalab.com/wp-content/uploads/2026/06/293193-edited.jpg
+  link: ''
+  credit: ''
+- date: 2026-05
+  title: Welcome Shanell Zou
+  summary: Welcome, Shanell Zou, who joins us as a summer intern. We hope you have a wonderful and productive summer with us!
+  image: https://saimalab.com/wp-content/uploads/2026/05/IMG_9245-scaled-e1779933903326-946x1024.jpg
+  link: ''
+  credit: ''
+- date: 2026-02
+  title: New NIA R21 award
+  summary: Together with Dr. Jun Wang’s group at Stony Brook, we are awarded an R21 by NIA!
+  image: https://saimalab.com/wp-content/uploads/2025/08/NIH-Logo-300x300-1.png
+  link: ''
+  credit: ''
+- date: 2026-02
+  title: ME-seq aging and Alzheimer’s work
+  summary: Congratulations to Bohan and team for putting together this exciting work! We engineered ME-seq for ultra-high throughput single-cell DNA methylation & RNA co-mapping and identified methylation-mediated priming in aging and Alzheimer’s brain!
+  image: https://saimalab.com/wp-content/uploads/2026/02/Screenshot-2026-02-02-at-7.53.08-PM-999x1024.png
+  link: ''
+  credit: ''
+- date: 2025-12
+  title: Spatial human skin atlas accepted in Nature Genetics
+  summary: The spatial human skin atlas paper mapping multiple anatomic sites led by Dr. Andrew Ji’s group is now accepted in Nature Genetics!
+  image: https://saimalab.com/wp-content/uploads/2025/12/Screenshot-2025-12-10-at-9.36.45-PM.png
+  link: ''
+  credit: ''
+- date: 2025-09
+  title: Welcome Dawei Tang
+  summary: Welcome Dawei Tang, who is joining us as a master student to tackle brain functions!
+  image: https://saimalab.com/wp-content/uploads/2025/09/IMG_0675.jpeg
+  link: ''
+  credit: ''
+- date: 2025-09
+  title: Collaborative work published in Nature
+  summary: Our collaborative work with Dr. Miriam Merad’s group is now published in Nature! We show that lung tumours prime accessibility for Nfe2l2 (NRF2) in bone marrow myeloid progenitors, enhancing myelopoiesis while dampening interferon response and promoting immunosuppression.
+  image: https://saimalab.com/wp-content/uploads/2025/09/Screenshot-2025-09-10-at-2.26.34-PM.png
+  link: ''
+  credit: ''
+- date: 2025-08
+  title: Down syndrome R21 collaboration
+  summary: We are excited to partner with Dr. Elvin Wagenblast’s group on an R21-funded project to address Down syndrome.
+  image: https://saimalab.com/wp-content/uploads/2025/08/NIH-Logo-300x300-1.png
+  link: ''
+  credit: ''
+- date: 2025-07
+  title: Congratulations to Dr. Federico Di Tullio
+  summary: We just celebrated a major milestone—our first PhD student, Dr. Federico Di Tullio, has officially graduated from the lab! Congratulations, Fred! Wishing you all the best as you start your next chapter at UCSD.
+  image: https://saimalab.com/wp-content/uploads/2025/07/IMG_5032-1-scaled-e1752091304962-1024x928.jpg
+  link: ''
+  credit: ''
+- date: 2025-07
+  title: Welcome back Ashley Chan
+  summary: Welcome back Ashley Chan as a returning summer intern!
+  image: ''
+  link: ''
+  credit: ''
+- date: 2025-06
+  title: Brian Soong receives NCI/NIH F30 award
+  summary: Huge congrats to Brian Soong on his NCI/NIH F30 award. Incredibly proud of you!
+  image: ''
+  link: ''
+  credit: ''
+- date: 2025-05
+  title: HBO1 work published in Cell Stem Cell
+  summary: Our work with Wei-Chien Yuan, Fernando Camargo and my postdoc mentor Jason Buenrostro is published in Cell Stem Cell. We leveraged in vivo CRISPR screen and single-cell ATAC to identify HBO1 as a critical barrier to hepatocyte reprogramming.
+  image: https://saimalab.com/wp-content/uploads/2025/05/fx1_lrg.jpg
+  link: ''
+  credit: ''
+- date: 2025-05
+  title: Congratulations to Jiayi Li
+  summary: Our previous intern Jiayi Li is accepted as a master student in computational biology at Harvard! Congratulations!
+  image: ''
+  link: ''
+  credit: ''
+- date: 2025-03
+  title: NIH/NCI IMAT funding
+  summary: Our lab is now funded by NIH/NCI IMAT program to study AML!
+  image: https://saimalab.com/wp-content/uploads/2025/03/IMAT-VC.png
+  link: ''
+  credit: ''
+- date: 2024-12
+  title: Selected as 2025 FBI scholars
+  summary: Partnered with Herbert Wu, we are honored to be selected as 2025 FBI scholars!
+  image: https://saimalab.com/wp-content/uploads/2024/12/Screenshot-2024-12-17-at-11.03.30-AM.png
+  link: ''
+  credit: ''
+- date: 2024-11
+  title: GABAergic neuron disease-modeling work
+  summary: With close collaborator Dr. Nan Yang’s team, we designed a new strategy to induce GABAergic neurons for better disease modeling and leveraged single-cell assays to probe the heterogeneity.
+  image: https://saimalab.com/wp-content/uploads/2024/12/Screenshot-2024-12-19-at-8.51.32-AM-1024x464.png
+  link: ''
+  credit: ''
+- date: 2024-11
+  title: Footprinting paper accepted in Nature
+  summary: Our footprinting paper is accepted in Nature. We use machine learning to correct Tn5 insertion bias, enabling accurate prediction of TF binding in large-scale scATAC datasets.
+  image: https://saimalab.com/wp-content/uploads/2023/03/Screenshot-2023-03-30-at-3.05.41-PM.png
+  link: ''
+  credit: bioRxiv
+- date: 2024-11
+  title: ATF3 and human skin rejuvenation
+  summary: Together with George Church’s Lab, we found a new TF ATF3 for rejuvenating human skin.
+  image: https://saimalab.com/wp-content/uploads/2024/11/Screenshot-2024-11-18-at-11.55.56-AM.png
+  link: ''
+  credit: ''
+- date: 2024-11
+  title: Henry & Marilyn Taub Foundation pilot award
+  summary: Teamed with Dr. Elvin Wagenblast, we are awarded by the Henry & Marilyn Taub Foundation for a pilot award.
+  image: https://saimalab.com/wp-content/uploads/2024/11/Screenshot-2024-11-09-at-9.23.54-PM.png
+  link: ''
+  credit: ''
+- date: 2024-06
+  title: Welcome summer interns
+  summary: Welcome Isaiah Raghubar, Ashley Chan, Vicky Zheng, and Jiayi Li joining us as interns!
+  image: ''
+  link: ''
+  credit: ''
+- date: 2024-06
+  title: Congratulations to Hyeonseo Lee
+  summary: Congratulations to our previous intern, Hyeonseo Lee, got accepted into WUSTL as a pre-med student! Super proud of you!
+  image: https://saimalab.com/wp-content/uploads/2023/07/IMG_8452-scaled-e1731205934166-1006x1024.jpg
+  link: ''
+  credit: ''
+- date: 2024-06
+  title: Melanoma Research Alliance award
+  summary: We are awarded by Melanoma Research Alliance, together with Anne Bowcock, Elena Ezhkova and Jose Silva’s groups.
+  image: https://saimalab.com/wp-content/uploads/2024/06/MRA-2-color-positive-2016-gray-red.png
+  link: ''
+  credit: ''
+- date: 2024-05
+  title: Th17 autoimmunity paper accepted in Nature Immunology
+  summary: Our collaborative paper with Aviv Regev and Vijay K. Kuchroo on Th17-based autoimmunity is now accepted in Nature Immunology!
+  image: https://saimalab.com/wp-content/uploads/2024/05/Screenshot-2024-05-19-at-2.30.03-PM.png
+  link: ''
+  credit: ''
+- date: 2024-01
+  title: Welcome Liying Wang
+  summary: Welcome visiting PhD student Liying Wang join our lab!
+  image: https://saimalab.com/wp-content/uploads/2024/03/IMG_0802-2-e1710700551491-1024x1024.jpg
+  link: ''
+  credit: ''
+- date: 2024-01
+  title: Welcome Lillian Chang
+  summary: Welcome PhD student Lillian Chang to rotate in our lab.
+  image: https://saimalab.com/wp-content/uploads/2024/01/IMG_4792-1-e1705957003867-edited-1.jpg
+  link: ''
+  credit: ''
+- date: 2023-08
+  title: Welcome Arushi Samal
+  summary: Welcome PhD student Arushi Samal to rotate in our lab.
+  image: https://saimalab.com/wp-content/uploads/2023/08/Arushi_Samal_headshot-scaled-e1693253373231-951x1024.jpg
+  link: ''
+  credit: ''
+- date: 2023-08
+  title: Welcome Nazifa Salsabeel
+  summary: Welcome PhD student Nazifa Salsabeel to rotate in our lab.
+  image: https://saimalab.com/wp-content/uploads/2023/08/Nazifa.jpg
+  link: ''
+  credit: ''
+- date: 2023-08
+  title: Post-COVID epigenetic memory study accepted in Cell
+  summary: Our collaborative paper with Duygu Ucar lab and Steven Z. Josefowicz lab is now accepted in Cell. Transcriptomic and epigenomic analysis of blood reveal sustained changes in hematopoiesis and innate immunity after COVID-19.
+  image: https://saimalab.com/wp-content/uploads/2023/06/F1.large_-1008x1024.jpg
+  link: ''
+  credit: ''
+- date: 2023-07
+  title: Welcome Brian Soong
+  summary: Brian Soong joins our lab as a MD/PhD student! He will be co-mentored by Miriam Merad to investigate the epigenetic clue in the immune environment.
+  image: https://saimalab.com/wp-content/uploads/2023/07/serious-1-scaled-e1690304015996-1004x1024.jpeg
+  link: ''
+  credit: ''
+- date: 2023-07
+  title: Welcome Hyeonseo Lee
+  summary: Hyeonseo Lee joins our lab as a summer intern! Welcome!
+  image: https://saimalab.com/wp-content/uploads/2023/07/IMG_8452-scaled-e1731205934166-1006x1024.jpg
+  link: ''
+  credit: ''
+- date: 2023-07
+  title: Sai joins the Tisch Cancer Institute
+  summary: Sai is now a member of the Tisch Cancer Institute (TCI) with the goal of advancing clinical breakthroughs that help prevent and eradicate cancer.
+  image: ''
+  link: ''
+  credit: ''
+- date: 2023-07
+  title: Welcome Federico Di Tullio
+  summary: Welcome PhD student Federico Di Tullio joining our lab! He will work on liver injury model and be co-mentored with Dr. Tianliang Sun.
+  image: https://saimalab.com/wp-content/uploads/2023/07/IMG_7427-scaled-e1688743484126-1007x1024.jpeg
+  link: ''
+  credit: ''
+- date: 2023-06
+  title: Drop-BS paper accepted in Nature Communications
+  summary: Our collaborative paper with Dr. Chang Lu at Virginia Tech is now accepted in Nature Communications. We demonstrate a droplet-based microfluidic technology, Drop-BS, to construct single-cell bisulfite sequencing libraries for DNA methylome profiling. Check out the paper!
+  image: https://saimalab.com/wp-content/uploads/2023/06/Screenshot-2023-06-08-at-9.21.02-AM-1024x882.png
+  link: ''
+  credit: bioRxiv
+- date: 2023-05
+  title: Welcome Zhicong (Leon) Liao
+  summary: Welcome PhD student, Zhicong (Leon) Liao, officially joined our lab!
+  image: https://saimalab.com/wp-content/uploads/2023/03/%E8%AF%81%E4%BB%B6%E7%85%A7-1024x1024.jpg
+  link: ''
+  credit: ''
+- date: 2023-04
+  title: mSWI/SNF perturbation work published in Molecular Cell
+  summary: Our collaborative work with Cigall Kadoch’s group is now published in Molecular Cell! We leveraged CRISPR-Cas9 knockout screens to target mSWI/SNF subunits individually and in select combinations, followed by single-cell RNA-seq and multi-omic assay (perturb-SHARE-seq). These single-cell subunit perturbation signatures mapped across bulk primary human tumor expression profiles both mirror and predict cBAF loss-of-function status in cancer.
+  image: https://saimalab.com/wp-content/uploads/2023/04/fx1_lrg.jpg
+  link: ''
+  credit: Molecular Cell
+- date: 2023-03
+  title: PRINT preprint on bioRxiv
+  summary: Our preprint is now on bioRxiv! We present a computational tool, PRINT, to predict chromatin binding proteins (TF & histone) from large-scale scATAC data.
+  image: https://saimalab.com/wp-content/uploads/2023/03/Screenshot-2023-03-30-at-3.05.41-PM.png
+  link: ''
+  credit: bioRxiv
+- date: 2023-03
+  title: Spatial epigenome–transcriptome work published in Nature
+  summary: Our collaborative paper with Dr. Rong Fan at Yale University is now published in Nature. We present two technologies for spatially resolved, genome-wide, joint profiling of the epigenome and transcriptome by co-sequencing chromatin accessibility/histone modification and gene expression on the same tissue section at near-single-cell resolution.
+  image: https://saimalab.com/wp-content/uploads/2023/03/Screenshot-2023-03-19-at-2.27.45-PM.png
+  link: ''
+  credit: Nature
+- date: 2023-03
+  title: Leon Liao rotates in the lab
+  summary: Welcome PhD student, Zhicong (Leon) Liao, rotating in our lab!
+  image: https://saimalab.com/wp-content/uploads/2023/03/%E8%AF%81%E4%BB%B6%E7%85%A7-1024x1024.jpg
+  link: ''
+  credit: ''
+- date: 2023-02
+  title: Welcome Dr. Feifei Yuan
+  summary: Dr. Feifei Yuan joined our lab as a new postdoctoral fellow. Welcome!
+  image: https://saimalab.com/wp-content/uploads/2022/11/WechatIMG1183-1000x1024.jpeg
+  link: ''
+  credit: ''
+- date: 2023-01
+  title: TF atlas collaboration published in Cell
+  summary: Our collaboration with Feng Zhang’s group at Broad Institute is now published in Cell. We massively screened every single TF in hESC differentiation by combining SHARE-seq with genetic perturbation and surprisingly found 27% of TF genes could function as master regulators.
+  image: https://saimalab.com/wp-content/uploads/2022/09/Screen-Shot-2022-09-25-at-9.10.09-AM-1024x685.png
+  link: ''
+  credit: Cell
+- date: 2022-11
+  title: Dr. Ma becomes an Affiliate Member of NYGC
+  summary: Dr. Ma is selected as an Affiliate Member of the New York Genome Center (NYGC).
+  image: https://saimalab.com/wp-content/uploads/2022/11/Nygenomelogo-color300px.png
+  link: ''
+  credit: ''
+- date: 2022-10
+  title: Welcome Nima Assad
+  summary: Welcome Nima Assad joining the lab as the first MD/PhD student!
+  image: https://saimalab.com/wp-content/uploads/2022/11/Assad.png
+  link: ''
+  credit: ''
+- date: 2022-09
+  title: Welcome Dr. Bohan Zhu
+  summary: Welcome our first postdoctoral fellow Dr. Bohan Zhu to the lab!
+  image: https://saimalab.com/wp-content/uploads/2022/05/bohan-edited-1024x1021.jpg
+  link: ''
+  credit: ''
+- date: 2022-08
+  title: Ma Lab officially opens
+  summary: Ma Lab officially opens in the Department of Genetics and Genomic Sciences at Icahn School of Medicine at Mount Sinai! Join us and work on cool science in the heart of Manhattan!
+  image: https://saimalab.com/wp-content/uploads/2022/06/logo6.png
+  link: ''
+  credit: ''
+- date: 2022-08
+  title: Neocortex regulatory work published in Nature Neuroscience
+  summary: Our collaborative work is published in Nature Neuroscience. We aim to investigate the regulatory strategies in both early post-mitotic and later stages of neurons from mouse and marmoset neocortex.
+  image: https://saimalab.com/wp-content/uploads/2022/05/Screen-Shot-2022-05-17-at-9.33.30-PM-1024x682.png
+  link: ''
+  credit: Nature Neuroscience
+- date: 2022-06
+  title: Spatial chromatin accessibility work accepted in Nature
+  summary: We seek to incorporate spatial information with chromatin accessibility for mapping various tissues! Now accepted in Nature. A collaboration with Dr. Rong Fan’s group at Yale.
+  image: https://saimalab.com/wp-content/uploads/2022/06/Screen-Shot-2021-06-07-at-2.36.46-PM-edited.png
+  link: ''
+  credit: bioRxiv
+- date: 2022-06
+  title: FigR accepted in Cell Genomics
+  summary: FigR—a very well optimized computational workflow to pair scATAC to scRNA data and infer gene regulation networks for stimulated PBMCs—is now accepted in Cell Genomics. Led by Dr. Vinay Kartha and Dr. Fabiana Duarte.
+  image: https://saimalab.com/wp-content/uploads/2022/02/image.png
+  link: ''
+  credit: Cell Genomics
+- date: 2022-02
+  title: MOWChIP-seq and BRCA1 mutation
+  summary: We use a microfluidic approach, MOWChIP-seq, to investigate the cell-type-specific impact of BRCA1 mutation on human breast tissue.
+  image: https://saimalab.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-03-at-10.29.09-AM.png
+  link: ''
+  credit: NAR
+- date: 2021-09
+  title: SMARCA4 work in Cancer Discovery
+  summary: Our work on investigating the loss of Smarca4 that results in highly advanced dedifferentiated tumors is now in Cancer Discovery!
+  image: ''
+  link: ''
+  credit: AACR
+- date: 2021-06
+  title: GATA2 deficiency study
+  summary: Gata2b-deficient zebrafish recapitulate human GATA2 deficiency syndrome-associated hematopoietic phenotypes. A collaboration with Dr. Len Zon’s group at HMS.
+  image: ''
+  link: ''
+  credit: ASH
+- date: 2021-06
+  title: Optimized sci-ATAC protocol available
+  summary: Our optimized sci-ATAC protocol is now available in STAR Protocols. A collaboration with Isabella Del Priore and Lindsay LaFave in Tyler Jacks’ Lab at MIT.
+  image: ''
+  link: ''
+  credit: Cell Press
+- date: 2021-04
+  title: Chronic stress and hair loss study published in Nature
+  summary: Our work to understand chronic stress that leads to hair loss is in Nature now! A collaboration with Dr. Ya-Chieh Hsu’s group at Harvard, led by Dr. Sekyu Choi.
+  image: ''
+  link: ''
+  credit: Nature
+- date: 2021-02
+  title: ELF3 superenhancer study published in PNAS
+  summary: An interesting story about superenhancer-induced ELF3 activation in trophoblasts is now in PNAS. A collaboration with Dr. Jack L. Strominger’s group at Harvard, led by Dr. Qin Li.
+  image: ''
+  link: ''
+  credit: PNAS
