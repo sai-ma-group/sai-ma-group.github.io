@@ -204,13 +204,6 @@ nav a:hover {
   padding: 28px 4px;
 }
 
-.card .number {
-  display: block;
-  color: var(--muted);
-  font-size: 0.8rem;
-  margin-bottom: 60px;
-}
-
 .card h3 {
   font-size: 1.4rem;
   margin-bottom: 14px;
@@ -327,10 +320,6 @@ footer {
 
   .research-grid {
     grid-template-columns: 1fr;
-  }
-
-  .card .number {
-    margin-bottom: 25px;
   }
 
   .news-item {
