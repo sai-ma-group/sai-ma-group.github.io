@@ -196,3 +196,8 @@ content:
       - name: type
         label: Type
         type: string
+        
+- name: hero_slides
+  label: Homepage Slideshow
+  type: image
+        list: true
