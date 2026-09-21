@@ -1,8 +1,15 @@
 - date: 2026-09
-  title: Our skin aging study is accepted in Nature!
+  title: Our skin aging study is accepted in <em>Nature</em>!
   summary: Our study showing that ATF3 mRNA can rejuvenate human skin has been
     accepted in <em>Nature</em>. Congratulations to the whole team!
   image: /images/news/2024-11-atf3-and-human-skin-rejuvenation.png
+- date: 2026-09
+  title: Ma Lab joins $60M+ multidisciplinary HEE research program
+  summary: Exciting news! The Ma Lab is part of a large multidisciplinary team
+    awarded more than $40 million to study Health Effects of an Exposure (HEE).
+    The program brings together expertise in clinical research, advanced
+    imaging, single-cell multi-omics, biomarker discovery, and AI/ML to better
+    understand the biological basis of HEE.
 - date: 2026-09
   title: Our embryogenesis study is accepted in principle at <em>Nature
     Communications</em>!
@@ -11,17 +18,17 @@
     Communications. Congratulations to the whole team!
   image: /images/news/2026-07-uhrf1-preprint-now-available-online.png
 - date: 2026-09
-  title: Ma Lab joins $60M+ multidisciplinary HEE research program
-  summary: Exciting news! The Ma Lab is part of a large multidisciplinary team
-    awarded more than $60 million to study Health Effects of an Exposure (HEE).
-    The program brings together expertise in clinical research, advanced
-    imaging, single-cell multi-omics, biomarker discovery, and AI/ML to better
-    understand the biological basis of HEE.
-- date: 2026-09
   title: Congratulations to Leon on his travel award and selected talk!
   summary: Leon Liao received a travel award and was selected to present his work
     in a talk at the MC2 Consortium Annual Meeting. Congratulations, Leon!
   image: /images/team/current/zhicong-leon-liao.jpg
+- date: 2026-08
+  title: Brian Soong selected for a plenary talk at ACR Convergence 2026
+  summary: 'Congratulations to Brian Soong on being selected for a plenary
+    presentation at ACR Convergence 2026! He will present “Clonal hematopoiesis
+    orchestrates Giant Cell Arteritis disease trajectory and immune landscape: a
+    multicentric and multiomics approach."'
+  image: /images/team/current/brian-soong.jpg
 - date: 2026-07
   title: UHRF1 preprint now available online
   summary: Our new preprint, “Uhrf1 loss disrupts Ctcf-associated chromatin
