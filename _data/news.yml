@@ -37,13 +37,6 @@
     architecture, and lineage stabilization during early embryonic development
     leveraging ME-seq.
   image: /images/news/2026-07-uhrf1-preprint-now-available-online.png
-- date: 2026-06
-  title: Dr. Ma receives the Lamport Research Award
-  summary: Dr. Ma is awarded the Dr. Harold and Golden Lamport Research Award from
-    Mount Sinai! This recognition supports the lab’s ongoing work in developing
-    single-cell and spatial multi-omic technologies to study gene regulation in
-    development, aging, and disease.
-  image: /images/news/2026-06-dr-ma-receives-the-lamport-research-award.jpg
 - date: 2026-07
   title: New GABAergic Neuron Differentiation Strategy Enables Improved Disease
     Modeling
@@ -54,6 +47,13 @@
     characterize their cellular heterogeneity and developmental states.
     Congratulations to the entire team on this collaborative effort!
   image: /images/news/2024-11-gabaergic-neuron-disease-modeling-work.png
+- date: 2026-06
+  title: Dr. Ma receives the Lamport Research Award
+  summary: Dr. Ma is awarded the Dr. Harold and Golden Lamport Research Award from
+    Mount Sinai! This recognition supports the lab’s ongoing work in developing
+    single-cell and spatial multi-omic technologies to study gene regulation in
+    development, aging, and disease.
+  image: /images/news/2026-06-dr-ma-receives-the-lamport-research-award.jpg
 - date: 2026-05
   title: Welcome Shanell Zou
   summary: Welcome, Shanell Zou, who joins us as a summer intern. We hope you have
