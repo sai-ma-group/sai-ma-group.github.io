@@ -3,9 +3,12 @@ layout: default
 title: Resources
 ---
 
+{% assign resources = site.data.resources %}
+
 <section class="page-hero">
   <div class="container">
     <p class="eyebrow">Resources</p>
+
     <h1>Software & Resources</h1>
 
     <p class="hero-text">
@@ -17,33 +20,52 @@ title: Resources
 
 
 <section class="section">
-  <div class="container resource-list">
+  <div class="container">
 
-    {% assign categories = site.data.resources | map: "category" | uniq %}
+    {% assign categories = resources | map: "category" | uniq %}
 
     {% for category in categories %}
 
-      <div class="resource-section">
+      <div class="resource-category">
 
-        <div class="resource-section-title">
+        <p class="section-label">
           {{ category }}
-        </div>
+        </p>
 
-        {% assign items = site.data.resources | where: "category", category %}
+        <div class="resource-grid">
 
-        {% for item in items %}
+          {% assign items = resources | where: "category", category %}
 
-          {% if item.url and item.url != "" %}
-            <a
-              href="{{ item.url }}"
-              target="_blank"
-              class="resource-item"
-            >
-          {% else %}
-            <div class="resource-item">
-          {% endif %}
+          {% for item in items %}
 
-              <div class="resource-item-content">
+            {% if item.url and item.url != "" %}
+
+              <a
+                href="{{ item.url }}"
+                target="_blank"
+                rel="noopener"
+                class="resource-card-link"
+              >
+
+                <article class="resource-card">
+
+                  <h3>{{ item.title }}</h3>
+
+                  <p>
+                    {{ item.description }}
+                  </p>
+
+                  <span class="resource-card-arrow">
+                    Explore →
+                  </span>
+
+                </article>
+
+              </a>
+
+            {% else %}
+
+              <article class="resource-card">
 
                 <h3>{{ item.title }}</h3>
 
@@ -51,19 +73,13 @@ title: Resources
                   {{ item.description }}
                 </p>
 
-              </div>
+              </article>
 
-              {% if item.url and item.url != "" %}
-                <div class="resource-item-arrow">→</div>
-              {% endif %}
+            {% endif %}
 
-          {% if item.url and item.url != "" %}
-            </a>
-          {% else %}
-            </div>
-          {% endif %}
+          {% endfor %}
 
-        {% endfor %}
+        </div>
 
       </div>
 
