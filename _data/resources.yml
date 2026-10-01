@@ -1,3 +1,8 @@
+- category: ChromE-seq
+  title: ChromE-seq protocol
+  description: ChromE-seq, a scalable single-cell assay that jointly profiles
+    chromatin contacts and RNA in the same cells.
+  url: https://dx.doi.org/10.17504/protocols.io.e6nvwbq4wvmk/v1
 - category: ME-seq
   title: ME-seq step-by-step protocol
   description: Step-by-step protocol for ME-seq.
@@ -40,17 +45,12 @@
   title: PBMC stimulation data exploration
   description: Interactive exploration of PBMC stimulation data associated with FigR.
   url: https://buenrostrolab.shinyapps.io/stimFigR/
-- category: Fetal Liver
+- category: Interactive Data
   title: Fetal liver HSPC data exploration
   description: Interactive exploration of fetal liver hematopoietic stem and
     progenitor cell data.
   url: https://malabsinai-nas.synology.me/fetal_liver/
-- category: Fetal Liver
+- category: Interactive Data
   title: Fetal liver ATAC tracks
   description: Genome-browser tracks for fetal liver chromatin accessibility data.
   url: https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://malabsinai-nas.synology.me:8443/hub.txt&position=chr5:157500000-159500000
-- category: ChromE-seq
-  title: ChromE-seq protocol
-  description: ChromE-seq, a scalable single-cell assay that jointly profiles
-    chromatin contacts and RNA in the same cells.
-  url: https://dx.doi.org/10.17504/protocols.io.e6nvwbq4wvmk/v1
