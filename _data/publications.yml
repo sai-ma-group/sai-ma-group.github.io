@@ -157,6 +157,7 @@
     S., Fiore, P., Wang, K., Martinez, I.G., Zhang, M., Saniei, S., Chao, C.,
     Mekerishvili, L., Diaz, Z., Ma, S., Hasson, D. & Wagenblast, E.
   journal: Blood Advances (accepted)
+  url: https://watermark02.silverchair.com/bloodadvances.2026019911.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAtkwggLVBgkqhkiG9w0BBwagggLGMIICwgIBADCCArsGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMLtEQ4c9eIX2AFaZAAgEQgIICjPOnIFEFPtpwLVupcIsKj6p0VwNfZGl3PirLzKCTHnjniXPKucq6LgDfhkokL9e98gRxQbSFMVWbEIpfnKd-VJGhQdrHJ6oX1r7cROIndBTDO4Q-NoctcLnWemSfmk5insDeS-80OwsekD_GuwniAeEchZW0liv8nIYUdqzMy2vPeYH_8fYP1cZw3jvF8_Sk-1GDAPKPK5HRed3Ua_ev0B-z8RG1cXPmDd7x2L4wLIbEPZG1MArUrcqvID2li0UqJuDu5Oxjoqg26Yfc8B9LOuQ1a85-0GLu0wdDDhKFQQ7ybTINJrPXFnUl5SVk1kv5m7ynEOHf2P7yWtLqQafrUqWKFt0ZAPcavdVPcUAWl-r8HKnyPHgvnyjo-Q0nY0o8Y5Af3iYQAkdiLwpnHqVFnUNjCt8X7YQBtnnW_bNwKs5BKIpOfvDsDiFfTmR8tLAfWOWTPFY5GSJGmBDJRLFomFktGRsBQHOqZhcdYLyszeo2mpxFIbGLbjizs92LjVcOnJabz5-i6KU0t5E4q4g1VaM-E1fTsxJcwzhaoCUo-enPqcB0xaihxFwLxAN_k4pqUo3bAPQF4UYH6XcCsPnC03y2qsmtbvx1maTjwgirgQNZrPFxCwetWt0mBKd5I6sRtlChi7CfSvwR21cv9jNi8Clvwbe7PzgvCGBRAFeqlus9RU1tgREjWtJomnP7P_eVtKd7Zk9v-4rM8dF_YPiyrxEC9Nq8Wg9_cpdHDe_KbxgY2rnxMXtiLzkDfstBSB3bJlyQk_9GpVHb73-EBoxPB252fwV7IsgW8MxWmWxvDxyoxM_znmN33JFsFt9DlmTF1vMw0hgmBVa76wsyAgvPnaEwMI85W6Gvw9DRMGs
   featured: false
 - year: 2026
   title: Rationale design in materials and pharmacokinetics for approaches to
@@ -168,31 +169,38 @@
 - year: 2026
   title: Exploring ADNP syndrome variant pathogenesis through advanced
     iPSC-derived cortical interneuron models
-  authors: Hu, R.†, Lee, L.†, …, Ma, S.* & Yang, N.*
-  journal: Stem Cell Reports (accepted)
+  authors: Hu, R.†, Boshans, L.L.†, Tao, Y., Zhu, B., Li, J., Li, X., Dang, R.,
+    Liang, M., Cai, P., Youssef, M., Inak, G., Song, Y., Wang, X., Tsankov,
+    A.M., Buxbaum, J.D., Jiang, P., Pang, Z.P., Ma, S.* & Yang, N.*
+  journal: Stem Cell Reports (in press)
+  url: https://www.sciencedirect.com/science/article/pii/S2213671126002973
   featured: false
 - year: 2026
   title: ME-seq protocol V1 a single cell trimodal assay
   authors: Zhu, B. & Ma, S.
   journal: Protocols.io
+  url: https://www.protocols.io/view/me-seq-protocol-v1-a-single-cell-trimodal-assay-5qpvowmwxl4o/v1
   featured: false
 - year: 2026
   title: Layering methylome and transcriptome in the same tissue slice
   authors: Xiao, Y.* & Ma, S.*
   journal: Genomics, Proteomics & Bioinformatics, 24 (1), qzaf136
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13021308/
   featured: false
 - year: 2024
   title: Multi-Omics profiling of human hippocampus reveals increased inflammation
     and transcription instability in major depressive disorder
   authors: Xiao, Y., Mariani, M., …, Ma, S., …, Boldrini, M.
   journal: Biological Psychiatry, 95 (10), S68–S69
+  url: https://www.biologicalpsychiatryjournal.com/article/S0006-3223(24)00269-5/abstract
   featured: false
 - year: 2024
-  title: Chromatin-based mechanisms of diversification of regulatory and
-    pro-inflammatory states reveal a role for BACH2 in Th17-based autoimmunity
+  title: BACH2 regulates diversification of regulatory and proinflammatory
+    chromatin states in TH17 cells
   authors: Thakore, P., Schnell, A., Zhao, M., Huang, L., Hou, Y., Christian, E.,
     Zaghouani, S., Wang, C., Singh, V., Ma, S., et al.
   journal: Nature Immunology, 25, 1395–1410
+  url: https://pubmed.ncbi.nlm.nih.gov/39009838/
   featured: false
 - year: 2023
   title: Epigenetic memory of coronavirus infection in innate immune cells and
@@ -200,6 +208,7 @@
   authors: Cheong, J.G.*, Ravishankar, A.*, Sharma, S.*, Parkhurst, C.*,
     Grassmann, S., Wingert, C.K., Laurent, P., Ma, S., et al.
   journal: Cell, 186 (18), 3882–3902
+  url: https://pubmed.ncbi.nlm.nih.gov/37597510/
   featured: false
 - year: 2023
   title: Structural and functional properties of mSWI/SNF chromatin remodeling
