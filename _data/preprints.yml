@@ -5,6 +5,13 @@
   server: bioRxiv
   year: 2026
   url: TBD
+- title: DNA methylation priming of cell-state transitions revealed by ME-seq
+  authors: "Zhu, B., Ghosh, A., Wang, Z., Liao, Z., Appiah, M., Li, J., Zhang, M.,
+    Tullio, F.D., Kurowskiy, A., Fullard, J., Wagenblast, E., Walsh, M. J.,
+    Goate, A., Roussos, P., Cheung, K.L.*, Yang, N.*, Ma, S.* "
+  server: bioRxiv
+  year: 2026
+  url: https://pubmed.ncbi.nlm.nih.gov/41676571/
 - title: Cell-type-resolved NRXN1 isoforms across human brain tissues and hiPSC
     organoids.
   authors: Cao, L. *, Fan, Y.*, Ghorbani, S.*, Mariani, J., Zhang, Y., Fernando,
@@ -22,13 +29,6 @@
   server: "bioRxiv "
   year: 2025
   url: https://www.biorxiv.org/content/10.64898/2025.12.06.692782v1
-- title: DNA methylation priming of cell-state transitions revealed by ME-seq
-  authors: "Zhu, B., Ghosh, A., Wang, Z., Liao, Z., Appiah, M., Li, J., Zhang, M.,
-    Tullio, F.D., Kurowskiy, A., Fullard, J., Wagenblast, E., Walsh, M. J.,
-    Goate, A., Roussos, P., Cheung, K.L.*, Yang, N.*, Ma, S.* "
-  server: bioRxiv
-  year: 2026
-  url: https://pubmed.ncbi.nlm.nih.gov/41676571/
 - title: "OmicGlaze: Spatial Multi-Omic Mapping of Traumatic Brain Injury"
   authors: Li, Y., Neuffer, S. J., Wider, J., Ma, S., McCracken, L., Sanderson,
     T., Dong, J-F, Deng, Y.* & Xiao, Y.*
