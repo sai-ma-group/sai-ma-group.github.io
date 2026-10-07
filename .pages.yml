@@ -140,6 +140,35 @@ content:
       - name: featured
         label: Featured publication
         type: boolean
+  - name: preprints
+    label: Preprints
+    type: file
+    path: _data/preprints.yml
+    format: yaml
+    list: true
+    operations:
+      delete: true
+
+    fields:
+      - name: title
+        label: Title
+        type: string
+
+      - name: authors
+        label: Authors
+        type: text
+
+      - name: server
+        label: Preprint Server
+        type: string
+
+      - name: year
+        label: Year
+        type: number
+
+      - name: url
+        label: Link
+        type: string
   - name: join
     label: Join Us
     type: file
