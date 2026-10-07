@@ -60,7 +60,50 @@ title: Publications
   </div>
 </section>
 
+<section class="section preprints-section">
+  <div class="container">
 
+    <p class="section-label">Preprints</p>
+    <h2>Latest preprints</h2>
+
+    <div class="preprint-grid">
+
+      {% assign preprints = site.data.preprints | sort: "year" | reverse %}
+
+      {% for pub in preprints %}
+
+        {% if pub.url and pub.url != "" %}
+          <a
+            href="{{ pub.url }}"
+            target="_blank"
+            class="preprint-link"
+          >
+        {% endif %}
+
+        <article class="preprint-card">
+
+          <h3>{{ pub.title }}</h3>
+
+          <p class="preprint-authors">
+            {{ pub.authors }}
+          </p>
+
+          <p class="preprint-meta">
+            <em>{{ pub.server }}</em> ({{ pub.year }})
+          </p>
+
+        </article>
+
+        {% if pub.url and pub.url != "" %}
+          </a>
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+</section>
 <!-- OTHER PUBLICATIONS -->
 <section class="section publications-all">
 
