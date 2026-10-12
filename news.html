@@ -10,6 +10,7 @@ title: News
   </div>
 </section>
 
+
 <section class="section">
   <div class="container news-archive">
 
@@ -20,10 +21,30 @@ title: News
       <article class="news-card">
 
         {% if item.image and item.image != "" %}
+
           <div class="news-card-image">
-            <img src="{{ item.image }}" alt="{{ item.title }}">
+
+            {% if item.link and item.link != "" %}
+              <a
+                href="{{ item.link }}"
+                target="_blank"
+                rel="noopener"
+              >
+            {% endif %}
+
+              <img
+                src="{{ item.image }}"
+                alt="{{ item.title }}"
+              >
+
+            {% if item.link and item.link != "" %}
+              </a>
+            {% endif %}
+
           </div>
+
         {% endif %}
+
 
         <div class="news-card-content">
 
@@ -31,20 +52,54 @@ title: News
             {{ item.date }}
           </div>
 
-          <h2>{{ item.title }}</h2>
 
-          <p>{{ item.summary }}</p>
+          <h2>
+
+            {% if item.link and item.link != "" %}
+
+              <a
+                href="{{ item.link }}"
+                target="_blank"
+                rel="noopener"
+                class="news-title-link"
+              >
+                {{ item.title }}
+              </a>
+
+            {% else %}
+
+              {{ item.title }}
+
+            {% endif %}
+
+          </h2>
+
+
+          <p>
+            {{ item.summary }}
+          </p>
+
 
           {% if item.credit and item.credit != "" %}
+
             <div class="news-credit">
               Image: {{ item.credit }}
             </div>
+
           {% endif %}
 
+
           {% if item.link and item.link != "" %}
-            <a href="{{ item.link }}" target="_blank" class="text-link">
+
+            <a
+              href="{{ item.link }}"
+              target="_blank"
+              rel="noopener"
+              class="news-link"
+            >
               Read more →
             </a>
+
           {% endif %}
 
         </div>
