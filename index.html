@@ -15,12 +15,10 @@ title: Home
   <div class="hero-backgrounds">
 
     {% for image in home.hero_slides %}
-
       <div
         class="hero-slide {% if forloop.first %}active{% endif %}"
         style="background-image: url('{{ image }}');"
       ></div>
-
     {% endfor %}
 
   </div>
@@ -89,7 +87,6 @@ title: Home
 
     <div class="research-grid">
 
-
       <article class="card">
 
         <h3>
@@ -133,7 +130,6 @@ title: Home
 
       </article>
 
-
     </div>
 
   </div>
@@ -149,7 +145,6 @@ title: Home
 <section class="section news-section">
 
   <div class="container">
-
 
     <div class="section-heading">
 
@@ -172,17 +167,22 @@ title: Home
 
       {% for item in site.data.news %}
 
-
         <article class="news-item">
 
+
+          <!-- DATE -->
 
           <div class="news-date">
             {{ item.date }}
           </div>
 
 
+          <!-- CONTENT -->
+
           <div class="news-content">
 
+
+            <!-- TITLE -->
 
             <h3>
 
@@ -206,49 +206,19 @@ title: Home
             </h3>
 
 
+            <!-- SUMMARY -->
+
             <p>
               {{ item.summary }}
             </p>
 
 
-            {% if item.link and item.link != "" %}
+            <!-- IMAGE + LINK -->
 
-              <div
-                style="
-                  display: block;
-                  width: 100%;
-                  margin-top: 14px;
-                  margin-bottom: 20px;
-                "
-              >
-
-                <a
-                  href="{{ item.link }}"
-                  target="_blank"
-                  rel="noopener"
-                  class="news-link"
-                  style="
-                    display: inline-block;
-                    color: #2563eb;
-                    font-weight: 650;
-                  "
-                >
-                  Read more →
-                </a>
-
-              </div>
-
-            {% endif %}
+            <div class="news-media">
 
 
-            {% if item.image and item.image != "" %}
-
-              <div
-                style="
-                  display: block;
-                  width: 100%;
-                "
-              >
+              {% if item.image and item.image != "" %}
 
                 {% if item.link and item.link != "" %}
 
@@ -256,24 +226,17 @@ title: Home
                     href="{{ item.link }}"
                     target="_blank"
                     rel="noopener"
-                    style="display: inline-block;"
+                    class="news-image-link"
                   >
 
                 {% endif %}
 
 
-                <img
-                  src="{{ item.image }}"
-                  alt="{{ item.title }}"
-                  style="
-                    display: block;
-                    max-width: 300px;
-                    max-height: 200px;
-                    object-fit: cover;
-                    border-radius: 10px;
-                    margin: 0;
-                  "
-                >
+                  <img
+                    src="{{ item.image }}"
+                    alt="{{ item.title }}"
+                    class="news-image"
+                  >
 
 
                 {% if item.link and item.link != "" %}
@@ -282,16 +245,28 @@ title: Home
 
                 {% endif %}
 
-              </div>
+              {% endif %}
 
-            {% endif %}
 
+              {% if item.link and item.link != "" %}
+
+                <a
+                  href="{{ item.link }}"
+                  target="_blank"
+                  rel="noopener"
+                  class="news-link"
+                >
+                  Read more →
+                </a>
+
+              {% endif %}
+
+
+            </div>
 
           </div>
 
-
         </article>
-
 
       {% endfor %}
 
@@ -344,7 +319,7 @@ title: Home
 
 
 <!-- =========================
-     HERO SLIDESHOW SCRIPT
+     HERO SLIDESHOW
      ========================= -->
 
 <script>
