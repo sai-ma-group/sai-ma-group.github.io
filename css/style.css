@@ -410,8 +410,10 @@ nav a:hover { color: var(--accent); }
 }
 
 .news-link {
-  display: inline-block;
+  display: block;
+  width: fit-content;
   margin-top: 14px;
+  margin-bottom: 20px;
   color: var(--accent);
   font-size: 0.95rem;
   font-weight: 650;
@@ -419,6 +421,11 @@ nav a:hover { color: var(--accent); }
 
 .news-link:hover {
   text-decoration: underline;
+}
+
+.news-item img {
+  display: block;
+  margin-top: 0 !important;
 }
 
 .news-card-image a {
