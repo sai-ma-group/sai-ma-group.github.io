@@ -107,6 +107,9 @@ content:
       - name: image
         label: Image
         type: image
+      - name: link
+        label: Link
+        type: string
         
   - name: publications
     label: Publications
