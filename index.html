@@ -5,18 +5,29 @@ title: Home
 
 {% assign home = site.data.home %}
 
+
+<!-- =========================
+     HERO
+     ========================= -->
+
 <section class="hero hero-slideshow">
 
   <div class="hero-backgrounds">
+
     {% for image in home.hero_slides %}
+
       <div
         class="hero-slide {% if forloop.first %}active{% endif %}"
         style="background-image: url('{{ image }}');"
       ></div>
+
     {% endfor %}
+
   </div>
 
+
   <div class="hero-overlay"></div>
+
 
   <div class="container hero-inner">
 
@@ -32,12 +43,14 @@ title: Home
       {{ home.hero_text }}
     </p>
 
+
     <div class="hero-buttons">
 
       <a
         href="https://github.com/sai-ma-group"
         class="button primary"
         target="_blank"
+        rel="noopener"
       >
         Explore our research
       </a>
@@ -56,46 +69,70 @@ title: Home
 </section>
 
 
+
+<!-- =========================
+     RESEARCH
+     ========================= -->
+
 <section class="section">
 
   <div class="container">
 
-    <p class="section-label">Research</p>
+    <p class="section-label">
+      Research
+    </p>
 
-    <h2>Measuring and decoding gene regulation</h2>
+    <h2>
+      Measuring and decoding gene regulation
+    </h2>
+
 
     <div class="research-grid">
 
+
       <article class="card">
-        <h3>Technology Development</h3>
+
+        <h3>
+          Technology Development
+        </h3>
 
         <p>
           Developing scalable single-cell and spatial technologies
           for simultaneous measurement of epigenetic,
           transcriptional and genomic information.
         </p>
+
       </article>
 
 
       <article class="card">
-        <h3>Gene Regulation & Cell Fate</h3>
+
+        <h3>
+          Gene Regulation & Cell Fate
+        </h3>
 
         <p>
           Understanding how chromatin state, DNA methylation and
           regulatory interactions prime and control cellular
           differentiation.
         </p>
+
       </article>
 
 
       <article class="card">
-        <h3>Aging & Disease</h3>
+
+        <h3>
+          Aging & Disease
+        </h3>
 
         <p>
           Applying multimodal genomics to understand regulatory
           mechanisms underlying aging, cancer and other human diseases.
         </p>
+
       </article>
+
 
     </div>
 
@@ -104,15 +141,28 @@ title: Home
 </section>
 
 
+
+<!-- =========================
+     NEWS
+     ========================= -->
+
 <section class="section news-section">
 
   <div class="container">
 
+
     <div class="section-heading">
 
       <div>
-        <p class="section-label">Lab News</p>
-        <h2>Latest from the lab</h2>
+
+        <p class="section-label">
+          Lab News
+        </p>
+
+        <h2>
+          Latest from the lab
+        </h2>
+
       </div>
 
     </div>
@@ -122,55 +172,126 @@ title: Home
 
       {% for item in site.data.news %}
 
-      <article class="news-item">
 
-        <div class="news-date">
-          {{ item.date }}
-        </div>
+        <article class="news-item">
 
-        <div>
 
-<h3>
-  {% if item.link and item.link != "" %}
-    <a
-      href="{{ item.link }}"
-      target="_blank"
-      rel="noopener"
-      class="news-title-link"
-    >
-      {{ item.title }}
-    </a>
-  {% else %}
-    {{ item.title }}
-  {% endif %}
-</h3>
+          <div class="news-date">
+            {{ item.date }}
+          </div>
 
-<p>
-  {{ item.summary }}
-</p>
 
-{% if item.link and item.link != "" %}
-  <a
-    href="{{ item.link }}"
-    target="_blank"
-    rel="noopener"
-    class="news-link"
-  >
-    Read more →
-  </a>
-{% endif %}
+          <div class="news-content">
 
-{% if item.image and item.image != "" %}
-            <img
-              src="{{ item.image }}"
-              alt="{{ item.title }}"
-              style="max-width: 300px; max-height: 200px; object-fit: cover; border-radius: 10px;"
-            >
-          {% endif %}
 
-        </div>
+            <h3>
 
-      </article>
+              {% if item.link and item.link != "" %}
+
+                <a
+                  href="{{ item.link }}"
+                  target="_blank"
+                  rel="noopener"
+                  class="news-title-link"
+                >
+                  {{ item.title }}
+                </a>
+
+              {% else %}
+
+                {{ item.title }}
+
+              {% endif %}
+
+            </h3>
+
+
+            <p>
+              {{ item.summary }}
+            </p>
+
+
+            {% if item.link and item.link != "" %}
+
+              <div
+                style="
+                  display: block;
+                  width: 100%;
+                  margin-top: 14px;
+                  margin-bottom: 20px;
+                "
+              >
+
+                <a
+                  href="{{ item.link }}"
+                  target="_blank"
+                  rel="noopener"
+                  class="news-link"
+                  style="
+                    display: inline-block;
+                    color: #2563eb;
+                    font-weight: 650;
+                  "
+                >
+                  Read more →
+                </a>
+
+              </div>
+
+            {% endif %}
+
+
+            {% if item.image and item.image != "" %}
+
+              <div
+                style="
+                  display: block;
+                  width: 100%;
+                "
+              >
+
+                {% if item.link and item.link != "" %}
+
+                  <a
+                    href="{{ item.link }}"
+                    target="_blank"
+                    rel="noopener"
+                    style="display: inline-block;"
+                  >
+
+                {% endif %}
+
+
+                <img
+                  src="{{ item.image }}"
+                  alt="{{ item.title }}"
+                  style="
+                    display: block;
+                    max-width: 300px;
+                    max-height: 200px;
+                    object-fit: cover;
+                    border-radius: 10px;
+                    margin: 0;
+                  "
+                >
+
+
+                {% if item.link and item.link != "" %}
+
+                  </a>
+
+                {% endif %}
+
+              </div>
+
+            {% endif %}
+
+
+          </div>
+
+
+        </article>
+
 
       {% endfor %}
 
@@ -181,15 +302,24 @@ title: Home
 </section>
 
 
+
+<!-- =========================
+     JOIN
+     ========================= -->
+
 <section class="join-section">
 
   <div class="container join-inner">
 
     <div>
 
-      <p class="section-label light">Join Us</p>
+      <p class="section-label light">
+        Join Us
+      </p>
 
-      <h2>We are looking for curious scientists.</h2>
+      <h2>
+        We are looking for curious scientists.
+      </h2>
 
       <p>
         We welcome motivated postdoctoral fellows, graduate students
@@ -199,7 +329,11 @@ title: Home
 
     </div>
 
-    <a href="/join.html" class="button white">
+
+    <a
+      href="/join.html"
+      class="button white"
+    >
       Opportunities →
     </a>
 
@@ -207,7 +341,14 @@ title: Home
 
 </section>
 
+
+
+<!-- =========================
+     HERO SLIDESHOW SCRIPT
+     ========================= -->
+
 <script>
+
 document.addEventListener("DOMContentLoaded", function () {
 
   const slides = document.querySelectorAll(".hero-slide");
@@ -227,4 +368,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 5000);
 
 });
+
 </script>
