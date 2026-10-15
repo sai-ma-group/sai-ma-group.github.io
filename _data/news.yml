@@ -13,7 +13,7 @@
   image: /images/news/2026-07-uhrf1-preprint-now-available-online.png
   link: https://www.nature.com/articles/s41467-026-78565-y
 - date: 2026-10
-  title: Our ChromE-seq preprint is now available on bioRxiv!
+  title: Our ChromE-seq preprint is now available on <em>bioRxiv</em>!
   summary: Excited to share our new preprint introducing ChromE-seq, a scalable
     technology for jointly profiling 3D chromatin architecture and gene
     expression in single cells! Led by Leon Liao and Brian Soong, our study
@@ -37,7 +37,7 @@
   image: /images/Screenshot 2026-10-01 at 11.18.11 AM.png
   link: https://www.protocols.io/view/chrome-seq-chromatin-and-expression-co-assay-with-e6nvwbq4wvmk/v1
 - date: 2026-09
-  title: Ma Lab joins $40M+ multidisciplinary HEE research program
+  title: Ma Lab joins $60M+ multidisciplinary HEE research program
   summary: Exciting news! The Ma Lab is part of a large multidisciplinary team
     awarded more than $60 million to study Health Effects of an Exposure (HEE).
     The program brings together expertise in clinical research, advanced
