@@ -54,3 +54,7 @@
   title: Fetal liver ATAC tracks
   description: Genome-browser tracks for fetal liver chromatin accessibility data.
   url: https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https://malabsinai-nas.synology.me:8443/hub.txt&position=chr5:157500000-159500000
+- category: ChromE-seq
+  title: ChromE-seq alignment pipeline
+  description: Pipeline for processing ChromE-seq data from BCL or FASTQ files.
+  url: https://github.com/sai-ma-group/ChromE-seq-Alignment-Pipeline_V1
